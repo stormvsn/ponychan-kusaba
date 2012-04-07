@@ -1,0 +1,17 @@
+*.gif
+*.ico
+*.jar
+*.jpg
+*.png
+*.swf
+*.xcf
+*.zip
+
+/css/icons/
+/css/images/
+/dwoo/cache/
+/dwoo/configs/
+/dwoo/templates_c/
+/kusabaoek/
+/lib/fonts/
+/modchat/
