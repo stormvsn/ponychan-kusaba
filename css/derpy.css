@@ -1,0 +1,312 @@
+body {
+	background: #A3AABD;
+	color:black; /*This is fucking important in every theme! My default GTK has white text you getwhite text in body which is annoying, esp if background is light or even white. A problem with atleast ff up to 3.6.15*/
+	/*background-image:url('/chan/themes/src/130088791051.gif');*/
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	font-family: "DejaVu Sans", Tahoma, sans-serif;
+}
+h1, h2, h3, .logo {
+	margin: 0;
+	font-family: "Nimbus Mono L", "Courier New", monospace;
+	color: #FAFAB0;
+}
+h1, .logo {
+	color: #FAFAB0;
+	font-family: "Nimbus Mono L", "Courier New", monospace;
+	font-style: italic;
+	font-weight: bolder;
+	text-shadow: -3px -3px 20px #E0DA6A,
+		     2px 3px 2px #AF7F27;
+}
+
+
+#sitemiddle .newsentry {
+	color: #000000;
+	font-family: "Nimbus Mono L", "Courier New", monospace;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #3B3E45;
+}
+#sitemiddle .newsentry a {
+	font-family: "Nimbus Mono L", "Courier New", monospace;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #3B3E45;
+}
+
+#sitemiddle .newstimestamp {
+        font-style: normal;
+	font-size: 1em;
+}
+
+hr {
+	color:#A3AABD;
+	border: 1px outset;
+}
+
+a {
+	color:#3434F0;
+	font-family: "DejaVu Sans", Tahoma, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+a:hover, .reflink a:hover {
+	color: #D67417;
+}
+
+#verytopbar h1 {
+        font-size: 7em;
+	text-shadow: -3px -3px 20px #E0DA6A,
+		     -6px -6px 42px #E9F299,
+		     -12px -12px 84px #F6FFA1,
+		     4px 4px 2px #E5A12C,
+		     7px 7px 4px #AF7F27,
+		     10px 10px 6px #573E13,
+		     12px 12px 8px #31230A;
+}
+
+#verytopbar h3 {
+	text-shadow: -1px -1px 10px #E0DA6A,
+		     -3px -3px 21px #E9F299,
+		     2px 2px 2px #AF7F27,
+		     3px 3px 4px #573E13,
+		     5px 5px 6px #31230A;
+}
+
+#verytopbar {
+	margin: 0px;
+	font-size: 0.8em;
+}
+
+.darkbar, #themedropdown {
+	background: #818695;
+}
+
+#verytopbar > .navbar {
+	text-align: left;
+}
+
+.darkbar a {
+	color: #E9F299;
+	border-top-color: #627271;
+	-moz-transition-duration: 1.5s;
+	-moz-transition-property: background-color, color;
+	-moz-transition-timing-function: ease-in;
+	-o-transition-duration: 1.5s;
+	-o-transition-property: background-color, color;
+	-webkit-transition-duration: 1.5s;
+	-webkit-transition-property: background-color, color;
+}
+#verytopbar a:hover {
+	background: #D9FCFA;
+	-moz-transition-duration: 0.2s;
+	-moz-transition-property: background-color, color;
+	-moz-transition-timing-function: ease-out;
+	-o-transition-duration: 0.2s;
+	-o-transition-property: background-color, color;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-property: background-color, color;
+}
+.darkbar a:hover {
+	color: #818695;
+	-moz-transition-duration: 0.2s;
+	-moz-transition-property: background-color, color;
+	-moz-transition-timing-function: ease-out;
+	-o-transition-duration: 0.2s;
+	-o-transition-property: background-color, color;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-property: background-color, color;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+	border-top-color: #E1A22C;
+}
+
+.sitesidebar a:hover, #topmenu .tab {
+	background: #A3ABBD;
+}
+
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+	background: #818695;
+	color:#FAFAB0;
+}
+
+#topmenu form {
+	position: relative;
+	top: 6px;
+  -webkit-transform: rotate(7deg);  /* Saf3.1+, Chrome */
+     -moz-transform: rotate(7deg);  /* FF3.5+ */
+      -ms-transform: rotate(7deg);  /* IE9 */
+       -o-transform: rotate(7deg);  /* Opera 10.5 */
+          transform: rotate(7deg);  
+             filter: progid:DXImageTransform.Microsoft.Matrix(/* IE6–IE9 */ 
+                     M11=0.992546151641322, M12=-0.12186934340514748, M21=0.12186934340514748, M22=0.992546151641322, sizingMethod='auto expand');
+               zoom: 1;
+}
+
+#watchedthreads {
+        position: absolute;
+	z-index: 30000;
+	border-width: 2px;
+	-moz-transform:rotate(-1deg);
+	-webkit-transform:rotate(-1deg);
+	-o-transform:rotate(-1deg);
+	-moz-box-shadow: 3px 3px 3px #A3ABBD inset;
+	-webkit-box-shadow: 3px 3px 3px #A3ABBD inset;
+	box-shadow: 3px 3px 3px #A3ABBD inset;
+	opacity: 0.79;
+}
+
+#watchedthreadsdraghandle {
+	text-align:right;
+	height:28px;
+	-moz-box-shadow: 3px 3px 3px #A3ABBD inset;
+	-webkit-box-shadow: 3px 3px 3px #A3ABBD inset;
+	box-shadow: 3px 3px 3px #A3ABBD inset;
+	background-image:url('/chan/themes/src/130091579241.png');
+	background-repeat:no-repeat;
+}
+
+.postblock {
+	background: #E0DA6A;
+	color: #4B4E57;
+}
+
+tr:nth-of-type(6) > .postblock {
+	background-repeat:no-repeat;
+	background-image:url('/chan/themes/src/130091579241.png');
+}
+
+tr:nth-of-type(4) > .postblock {
+	background-repeat:no-repeat;
+	background-image:url('/chan/themes/src/130091579241.png');
+	background-position: bottom right;
+	margin:12px;
+	transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+	-webkit-transform:rotate(5deg);
+	-o-transform:rotate(5deg);
+}
+
+.postarea input[type=text], .postarea input[type=password], .postarea textarea {
+	border-color: #FAFAAF;
+	border-style: inset;
+	background: #202125;
+	color: white;
+	font-family:  Fixedsys, Terminal, Courier, monospace;
+	font-size: 1.25em;
+}
+
+.postarea input[type=text]:focus, .postarea input[type=password]:focus, .postarea textarea:focus {
+	border-color: #E0DA6A;
+	border-style: outset;
+	border-width: 2px;
+	background: black;
+	color: white;
+	font-family:  Fixedsys, Terminal, Courier, monospace;
+	font-size: 1.25em;
+
+}
+
+.omittedposts {
+	color:white;
+}
+
+.reply {
+	background: #BBC4CB;
+	border-style: inset;
+	border-color: #A7AEC1;
+	border-width: 2px;
+	-moz-box-shadow: 3px 3px 3px #A3ABBD inset;
+	-webkit-box-shadow: 3px 3px 3px #A3ABBD inset;
+	box-shadow: 3px 3px 3px #A3ABBD inset;
+}
+
+form > div table:nth-of-type(13) .reply {
+ 	transform:rotate(0.5deg);
+	-moz-transform:rotate(0.5deg);
+	-webkit-transform:rotate(0.5deg);
+	-o-transform:rotate(0.5deg);
+}
+
+form > div table:nth-of-type(13n+293) .reply {
+	padding-left:42px;
+	padding-bottom:42px;
+	background-image:url('/chan/themes/src/130168832574.png');
+	background-repeat:no-repeat;
+	background-position:bottom left;
+}
+
+form > div table:nth-of-type(17n+311) .reply {
+	padding-left:42px;
+	padding-bottom:42px;
+ 	background-image:url('/chan/themes/src/130168834199.png');
+	background-repeat:no-repeat;
+	background-position:bottom left;
+}
+
+.helphover div, .highlight, .reflinkpreview {
+	background: #D9FCFA;
+	border-style: outset;
+	border-color: #D9FCFA;
+	border-width: 2px;
+	-moz-box-shadow: 3px 3px 3px #5C606B;
+	-webkit-box-shadow: 3px 3px 3px #5C606B;
+	box-shadow: 3px 3px 3px #5C606B;
+}
+
+.helphover div {
+	background-image:url('/chan/themes/src/130168832574.png');
+	padding-left:42px;
+	padding-bottom:76px;
+	background-repeat:no-repeat;
+	background-position:bottom left;
+}
+
+.filetitle {
+	color: #676431;
+}
+
+.postername, .postername a {
+	color: #402E0D;
+}
+.postertrip {
+	color: #BB3F0E;
+}
+.admin, .mod {
+        border: 5px dotted #000;
+        border-width: 2px 0;
+	font-family: Webdings, Wingdings, "Zapf Dingbats" Dingbats;
+}
+
+.nothumb {
+	background: #A3AABD;
+	padding: 0px 0px 84px 42px;
+        border: 4px inset #BBC4CB;
+	border-radius: 42px 0px 42px 0px;
+	-moz-border-radius: 42px 0px 42px 0px;
+	-webkit-border-radius: 42px 0px 42px 0px;
+        text-align: center;
+	color: white;
+	background-image:url('/chan/themes/src/130168834199.png');
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	-moz-box-shadow: 3px 3px 3px #5C606B inset;
+	-webkit-box-shadow: 3px 3px 3px #5C606B inset;
+	box-shadow: 3px 3px 3px #5C606B inset;
+}
+
+.unkfunc {
+	color: #BB3F0E;
+}
+
+.userdelete {
+	float: left;
+	margin: 0em 3em 0em 1em;
+}
+
+.navbar {
+	clear:both;
+	text-align: center;
+}

@@ -1,0 +1,69 @@
+body {
+	background: #ffe;
+	color: #600000;
+}
+a, a:visited, a:active {
+	color:#00e;
+}
+a:hover, .reflink a:hover {
+	color: #d00;
+}
+
+.darkbar, #themedropdown {
+	background: #501020;
+}
+.darkbar a {
+	color: #e090a0;
+	border-top-color: #934;
+}
+#verytopbar a:hover {
+	background: #400010;
+}
+.darkbar a:hover {
+	color: #ffe0f0;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+	border-top-color: #e89;
+}
+
+#siteleftsidebar a:hover, #topmenu .tab {
+	background: #fdb;
+}
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+	background: #fca;
+}
+.sitesidebar h2, #topmenu .tab, #sitemiddle h2 {
+	border: 1px solid #a88;
+}
+.sitesidebar h2, #sitemiddle h2 {
+	-moz-box-shadow: 3px 3px 2px #dca;
+	-webkit-box-shadow: 3px 3px 2px #dca;
+	box-shadow: 3px 3px 2px #dca;
+}
+
+.postblock {
+	background: #ea8;
+}
+.postarea input[type=text], .postarea input[type=password], .postarea textarea {
+	border-color: #c67;
+}
+.postarea input[type=text]:focus, .postarea input[type=password]:focus, .postarea textarea:focus {
+	border-color: #934;
+}
+
+.helphover div, .reply, .highlight, .reflinkpreview {
+	background: #f0e0d6;
+}
+.highlight, .reflinkpreview {
+	border: 2px dashed #ea8;
+}
+
+.filetitle {
+	color: #c10;
+}
+.postername, .postername a, .postertrip {
+	color: #174;
+}
+.unkfunc {
+	color: #792;
+}

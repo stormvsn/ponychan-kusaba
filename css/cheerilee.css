@@ -1,0 +1,144 @@
+body {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFAQMAAAC3obSmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9sDEg0rG/1QBF4AAAAGUExUReWkyuzM3tllSp8AAAABYktHRACIBR1IAAAAEklEQVQIHWOwYChgeMBwgmEGAAxiAunMUp95AAAAAElFTkSuQmCC") repeat scroll 0 0 transparent;
+}
+#bodywrap2 {
+    background: url("http://i.imgur.com/Ua72a.png") no-repeat fixed right bottom transparent;
+}
+a, a:visited {
+    color: #f3eaa6;
+    text-shadow: 1px 1px 1px #000000;
+}
+a:hover, .reflink a:hover {
+    color: #669E53;
+    text-shadow: 1px 1px 1px #000000;
+}
+.darkbar, #themedropdown {
+    background: none repeat scroll 0 0 #AB4187;
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px #000;
+    box-shadow: 3px 3px 3px #6e1a53;
+}
+.darkbar:hover, #themedropdown:hover {
+    opacity: 0.95;
+    text-shadow: 3px 3px 3px #000;
+}
+.darkbar a {
+    border-top-color: #cc729d;
+    color: #e6a6cb;
+}
+#verytopbar a:hover {
+    background: none repeat scroll 0 0 #d270ad;
+}
+.darkbar a:hover {
+    color: #669e53;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+    border-top-color: #f3eaa6;
+}
+#themedropdown a:hover {
+	font-weight: normal;
+}
+.sitesidebar a:hover, #topmenu .tab {
+    background: none repeat scroll 0 0 #E0B8E0;
+}
+/* front page */
+.sitesidebar a:hover {
+    background-color: #ecccde;
+    border-radius: 5px;
+}
+#topmenu .tab {
+    background-color: #ecccde;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.sitesidebar h2 {
+    background-color: #ac428b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6b1850;
+    border-bottom-width: 0px;
+}
+.newsentry h2 {
+    background-color: #ac428b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6b1850;
+}
+.sitesidebar > div[id] {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #cc729d;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6b1850;
+}
+#topmenu .current {
+    background-color: #ac428b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6b1850;
+}
+/* end */
+.postblock {
+    background: none repeat scroll 0 0 #ac428b;
+    border-radius: 5px;
+}
+.postarea input[type="text"], .postarea input[type="password"], .postarea textarea {
+    border-color: #6e1a53;
+}
+.postarea input[type="text"]:focus, .postarea input[type="password"]:focus, .postarea textarea:focus {
+    border-color: #6e1a53;
+    border-style: solid;
+    border-width: 2px;
+}
+.postarea textarea {
+    padding-right: 180px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("http://i.imgur.com/oZ3R5.png");
+
+}
+.helphover div, .reply, .highlight, .reflinkpreview, #delform > div > blockquote {
+    background: none repeat scroll 0 0 #ac428b;
+    border-radius: 5px;
+	box-shadow: 3px 3px 3px #6e1a53;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #6b1850;
+}
+#delform > div > blockquote {
+    display: table;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.reflinkpreview .reply {
+    box-shadow: none;
+    border-style: none;
+}
+.highlight {
+    border-left-width: 7px; 
+    border-left-color: #f3eaa6;
+}
+.filetitle {
+    color: #D01090;
+}
+.postername, .postername a {
+    color: #f3eaa6;
+    text-shadow: 3px 3px 3px #000;
+}
+.postertrip {
+    color: #f3eaa6;
+    text-shadow: 3px 3px 3px #000;
+}
+.unkfunc {
+    color: #669E53;
+}

@@ -1,0 +1,402 @@
+/*
+Theme Name: Timelord (or Doctor Whooves)
+Version: RC5v5 (Final)
+Author: DarkGubi
+Known bugs:	
+		-Internet Explorer has no transition effects (IE sucks)
+		-Chrome has a plus border on Focused Post area (I don't know why)
+Used tools and apps:
+		-Firefox 4
+			-Firebug 1.7
+		-Google Chrome 10
+		-Opera 11
+		-Internet Explorer 9
+		-Adobe Photoshop CS4
+		-Irfan View
+		-Sonic screwdriver
+*/
+@import "http://fonts.googleapis.com/css?family=Cabin+Sketch:Bold";
+
+@import "http://fonts.googleapis.com/css?family=Neucha";
+
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+
+@import "http://fonts.googleapis.com/css?family=Philosopher";
+
+@import "http://fonts.googleapis.com/css?family=Fontdiner+Swanky";
+
+body {
+    background: url("/chan/themes/src/130089514150.png") no-repeat fixed 99% 190px #B29F75;
+}
+#bodywrap1 {
+    background: url("/chan/themes/src/130090020213.png") no-repeat scroll 650px 100% transparent;
+}
+a, a:visited, a:active {
+    color: #635536;
+}
+a:link{
+	color: #230800;
+}
+a:hover, .reflink a:hover, .visited a:hover, .link a:hover {
+	color: #9f1919;
+}
+/*------------------------------------------- Very top bar ----------------------------------------------*/
+.logo {
+    color: #41361D;
+	font-family: 'Cabin Sketch', arial, serif;
+}
+.darkbar, #themedropdown {
+    background: none repeat scroll 0 0 #918052;
+}
+#themedropdown {
+   opacity: 0.9;
+}
+
+.darkbar {
+	opacity: 0.95;
+}
+/*
+// Firefox4 white line (direct3d 10) bugfix
+.darkbar:hover{
+	opacity: 1;
+}
+*/
+.darkbar a {
+    border-top-color: #41361D;
+    color: #DFD37A;
+	-moz-transition-duration: 0.3s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.3s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: background-color, color;
+    border-radius: 3px 3px 25px 10px;
+
+}
+#verytopbar a:hover {
+    background: none repeat scroll 0 0 #41361D;
+
+	-moz-transition-duration: 0.3s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-duration: 0.3s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: background-color, color;
+
+}
+.darkbar a:hover {
+    color: #F7FFFF;
+	-moz-transition-duration: 0.3s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-duration: 0.3s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: background-color, color;
+
+}
+#verytopbar a:hover, #verytopbar .navbarcurboard {
+    background: none repeat scroll 0 0 #41361d;
+}
+.darkbarbar a:hover, .darkbar .navbarcurboard {
+    border-top-color: #DFD37A;
+}
+#themedropdown {	
+	box-shadow: 3px 3px 8px #6A611A;
+	-moz-box-shadow: 3px 3px 8px #6A611A;
+	-webkit-box-shadow: 3px 3px 8px #6A611A;
+	border-radius: 3px 3px 25px 10px;
+}
+.darkbar {
+	box-shadow: 3px 3px 8px #6A611A;
+	-moz-box-shadow: 3px 3px 8px #6A611A;
+	-webkit-box-shadow: 3px 3px 8px #6A611A;
+}
+#verytopbar h1 {
+	font-family: 'Fontdiner Swanky', arial, serif;
+	font-size: 4.5em;
+	color: #3a54b3;
+	text-shadow: 1px 1px 1px #3a54b3, 0 0 16px rgb(176,188,230);
+}
+h3 {
+	font-family: 'Philosopher', arial, serif;
+}
+/*
+//Just testing something...
+#verytopbar h3{
+ opacity: 1; font-size: 0px; 
+}
+#verytopbar h3:after{
+	content: '"Get in to the TARDIS!"';
+	display: block;
+	font-size: 24px;
+	font-style: italic;
+}
+*/
+/*
+// h3 Sonic Screwdriver green text
+#verytopbar h3{
+color: rgb(13,151,13);
+text-shadow: 2px 2px 2px rgb(16,188,16), 0 0 16px rgb(105,243,105);
+}
+*/
+/*----------------------------------------- Post input things --------------------------------------*/
+.postblock {
+    background: none repeat scroll 0 0 #E9E374;
+    border-radius: 10px 5px 25px 10px;
+    box-shadow: 2px 2px 2px #6A611A;
+	padding-right: 10px;
+	padding-left: 5px;
+
+}
+.postarea input[type="text"], .postarea input[type="password"]{
+    border-color: #E9E374;
+    border-radius: 10px 20px 50px 10px;
+    box-shadow: 2px 2px 2px #6A611A;
+	padding-right: 10px;
+}
+.postarea input[type="text"]:focus, .postarea input[type="password"]:focus, .postarea textarea:focus {
+    border-color: #41361D;
+
+}
+.postarea textarea {
+    border-color: #E9E374;
+    background-image: url("/chan/themes/src/130090048736.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 86px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px 10px 10px 40px;
+    box-shadow: 2px 2px 2px #6A611A;
+}
+/*-------------------------------------------------- Posts ---------------------------------------*/
+hr {
+    border-color: -moz-use-text-color -moz-use-text-color #6A611A;
+}
+.helphover div, .highlight {
+    background: none repeat scroll 0 0 #DFD37A;
+    border-radius: 10px 20px 50px 10px;
+    box-shadow: 3px 3px 3px #6A611A;
+    opacity: 0.95;
+}
+.highlight {
+    background: none repeat scroll 0 0 #D0BE3E;
+	padding-right: 10px;
+	border-style: none;
+	opacity: 1;
+}
+.reflinkpreview {
+    background: none repeat scroll 0 0 rgb(208,190,62);
+    box-shadow: 3px 3px 3px #6A611A;
+    border-radius: 10px 5px 5px 25px;
+}
+.reply {
+    border-radius: 10px 5px 5px 25px;
+    box-shadow: 5px 5px 5px #6A611A;
+    background: none repeat scroll 0 0 #DFD37A;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.reflinkpreview {
+//   border-left-color: #230800;
+	opacity: 0.95;
+}
+
+.filetitle {
+    color: #3855B3;
+	font-family: 'Philosopher', arial, serif;
+}
+.postername, .postername a, .postertrip {
+    color: #230800;
+}
+.postername, .postername a{
+	font-family: 'Neucha', arial, serif;
+}
+.postertrip {
+	font-family: 'Ubuntu', arial, serif;
+}
+.unkfunc {
+    color: #505A75;
+}
+#watchedthreads {
+	box-shadow: 4px 4px 4px #6A611A;
+	-moz-box-shadow: 4px 4px 4px #6A611A;
+	-webkit-box-shadow: 4px 4px 4px #6A611A;
+	border-radius: 0px 5px 50px 10px;
+	opacity: 0.8;
+}
+#watchedthreadlist{
+	top: 2em;
+	Width: 95%;
+}
+
+/*--------------------------------------------------------------------------------------
+-------------------------------------- Front Page --------------------------------------
+----------------------------------------------------------------------------------------*/
+
+/*-------------------------------------- Site side bar ---------------------------------*/
+.sitesidebar a:hover, #topmenu .tab {
+    background: none repeat scroll 0 0 #918052;
+}
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+    background: none repeat scroll 0 0 #918052;
+}
+.sitesidebar h2 {
+    border-radius: 10px 20px 50px 10px;
+	font-family: 'Neucha', arial, serif;
+}
+.sitesidebar li .boardlink {
+	border-radius: 10px 20px 50px 10px;
+}
+.sitesidebar .menuexpander {
+	-moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-duration: 0.2s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: background-color, color;
+	border-radius: 10px 20px 50px 10px;
+}
+.sitesidebar .menuexpander:hover {
+	border-radius: 10px 20px 50px 10px;
+	background: #dfd37a;
+	-moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-duration: 0.2s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: background-color, color;
+}
+.sitesidebar a{
+	-moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.2s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: background-color, color;
+}
+.sitesidebar a:hover {
+    color: #e9e374;
+	-moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.2s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: background-color, color;
+}
+/*------------------------------------- Site middle -----------------------------------*/
+#sitemiddle h2 {
+	border-radius: 0px 20px 50px 0px;
+	font-family: 'Neucha', arial, serif;
+	color: #e9e374;
+}
+#sitemiddle .newstimestamp {
+    color: #dfd37a;
+}
+#sitemiddle #topmenu .tab a {
+	color: #230800;
+	-moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.2s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: background-color, color;
+}
+#sitemiddle #topmenu .tab a:hover {
+	color: #e9e374;
+	-moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.2s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: background-color, color;
+}
+#sitemiddle #topmenu .current a {
+	color: #e9e374;
+}
+#sitemiddle .newsentry {
+    border-style: solid;
+	border-radius: 0px 10px 50px 10px;
+	border-width: 2px;
+	border-top-style: none;
+	border-color: #918052;
+}
+#sitemiddle .newscontent {
+	padding-right: 25px;
+	padding-bottom: 5px;
+}
+#sitemiddle .permalink a{
+	color: #230800;
+	-moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.2s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: background-color, color;
+}
+#sitemiddle .permalink a:hover {
+	color: #e9e374;
+	-moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color, color;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.2s;
+    -o-transition-property: background-color, color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: background-color, color;
+}
+#sitemiddle #topmenu .tab {
+border-top-left-radius: 15px;
+}
+#sitemiddle #topmenu .current {
+border-top-left-radius: 20px;
+}
+/*----------------------------------------- Site right side bar -----------------------------------*/
+.sitesidebar .recentpostitem{
+	background: none repeat scroll 0 0 #E9E374;
+	border-radius: 11px 11px 25px 10px;
+}
+.sitesidebar .recentpostheaderline{
+	background: none repeat scroll 0 0 #D0BE3E;
+	border-radius: 10px 10px 0px 0px;
+	padding-left: 5px;
+	margin-bottom: 0em;
+}
+.sitesidebar .recentpostitem img{
+	margin-top: 0.5em;
+}
+.sitesidebar .recentpostmessage {
+	padding-bottom: 5px;
+}
+.sitesidebar hr{
+	border-width: 0;
+}
+/*
+// themedropdown bugfix
+.sitesidebar {
+	opacity: 0.9;
+}
+.sitesidebar h2 {
+	opacity: 0.95;
+}
+*/
+.sitesidebar h2 {
+	text-align:center;
+	background: none repeat scroll 0 0 #D0BE3E;
+	border-radius: 10px 10px 10px 10px;
+}
+.sitesidebar hr {
+	margin-bottom: 0.5em;
+}
+.sitesidebar .menuexpander:hover{
+	color:black;
+}

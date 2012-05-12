@@ -1,0 +1,228 @@
+@import "http://fonts.googleapis.com/css?family=Josefin+Sans:700";
+body { 
+background-image: url("http://www.ponychan.net/chan/themes/src/130136165483.png");
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+background-color: #2d4689;
+font-family: "Calibri";
+color: #999999;
+}
+a:link { 
+color: #FFF;
+text-decoration: none;
+}
+a:active { 
+color: #ffffff;
+text-decoration: none;
+}
+a:visited { 
+text-decoration: none;
+color: #FFF;
+}
+a:hover { 
+color: #FFF
+text-decoration: none;
+}
+.logo { 
+color: #000000;
+font-family: 'Josefin Sans';
+}
+a { 
+color: #FFF;
+-text-shadow:0 0 1px #2d4689;
+}
+a:hover, .reflink a:hover { 
+color: #FFF;
+text-shadow: 0 0 4px #fff;
+}
+.darkbar, #themedropdown { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+background-color: #081024;
+color: #ffffff;
+}
+.darkbar a { 
+color: #ffffff;
+border-top-color: #596aaa;
+}
+#verytopbar a:hover { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+background-color: #596aaa;
+}
+.darkbar a:hover {
+color: #ffffff;
+}
+.darkbar a:hover, .darkbar .navbarcurboard { 
+border-top-color: #254daf;
+}
+.sitesidebar a:hover, #topmenu .tab { 
+background-attachment: scroll;
+background-clip: border-box;
+background-color: #455594;
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-repeat: repeat;
+background-size: auto;
+color: #ffffff;
+}
+.sitesidebar h2, .newsentry h2, #topmenu .current { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+color: #FFF;
+background-color: #1c2a61;
+}
+.postblock { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+background-color: #2f2f4f;
+}
+.postarea input[type="text"], .postarea input[type="password"], .postarea textarea { 
+border-color: #2f2f4f;
+background-color:#000;
+color:#fff;
+font-size:16px;
+}
+.postarea input[type="text"]:focus, .postarea input[type="password"]:focus, .postarea textarea:focus { 
+border-color: #2f2f4f;
+background-color:#000;
+color:#fff;
+font-size:16px;
+}
+.postarea textarea { 
+background-image: url("http://www.ponychan.net/chan/themes/src/130108296067.png");
+background-color:#000;
+color:#fff;
+padding-right: 115px;
+background-repeat: repeat-y;
+background-position: 100% 0%;
+font-size:16px;
+}
+.helphover div, .reply, .highlight, .reflinkpreview { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+background-color: #ffffff;
+}
+.highlight, .reflinkpreview { 
+border-left-color: #881188;
+}
+.filetitle { 
+color: #d01090;
+}
+.postername, .postername a { 
+color: #000000;
+}
+.postertrip { 
+color: #a040a0;
+}
+.unkfunc { 
+color: #808082;
+}
+.postarea input[type="text"]:focus { 
+border-color: #1c2a62;
+}
+.postarea input[type="password"]:focus { 
+border-color: #1c2a62;
+}
+.postarea textarea:focus { 
+border-color: #1c2a62;
+}
+.helphover div { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+background-color: #2f2f4f;
+color: #000000;
+}
+.reply { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+background-color: #1c2a62;
+color: #999999;
+}
+.highlight { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+color: #ffffff;
+background-color: #75a8fa;
+}
+.reflinkpreview { 
+background-image: none;
+background-attachment: scroll;
+background-repeat: repeat;
+background-position: 0% 0%;
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+background-color: #124;
+color: #ffffff;
+}
+.highlight { 
+border-left-color: #4847a7;
+}
+.reflinkpreview { 
+border-left-color: #881188; /* Likely related to the white box problem - requires testing */
+}
+.filetitle { 
+color: #0091bc;
+}
+.filesize { 
+color: #ffffff;
+font-size: 0.8em;
+}
+.postername { 
+color: #ffffff;
+}
+.postername a { 
+color: #ffffff;
+}
+.postertrip { 
+color: #ffffff;
+}
+.unkfunc { 
+color: #ffffff;
+}

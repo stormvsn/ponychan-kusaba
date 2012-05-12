@@ -1,0 +1,85 @@
+@import "http://fonts.googleapis.com/css?family=Indie+Flower";
+@import "http://fonts.googleapis.com/css?family=Coming+Soon";
+
+body {
+	background: #FFF798;
+}
+#bodywrap1 {
+    background: url('/chan/themes/src/130090409187.png')  transparent no-repeat bottom right fixed;
+}
+.logo {
+	color: #E57EB5;
+	text-shadow: 0 0 2px #F69;
+	font-family: 'Indie Flower';
+}
+a {
+	color:#34345c;
+}
+a:hover, .reflink a:hover {
+	color: #c000c0;
+}
+
+.darkbar, #themedropdown {
+	background: #EDA5CB;
+}
+.darkbar a {
+	color: #861A50;
+	border-top-color: #841A52;
+}
+#verytopbar a:hover {
+	background: #841A52;
+}
+.darkbar a:hover {
+	color: #FBD9E3;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+	border-top-color: #d7d;
+}
+
+.sitesidebar a:hover, #topmenu .tab {
+	background: #F8B9CE;
+}
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+	background: #F497B6;
+	font-family: 'Coming Soon';
+}
+
+.postblock {
+	background: #E783B5;
+	font-family: 'Coming Soon';
+}
+.postarea input[type=text], .postarea input[type=password], .postarea textarea {
+	border-color: #EAC957;
+}
+.postarea input[type=text]:focus, .postarea input[type=password]:focus, .postarea textarea:focus {
+	border-color: #c020c0;
+}
+.postarea textarea {
+	padding-right: 100px;
+	background-image: url('/chan/themes/src/130090157510.png');
+	background-repeat: no-repeat;
+	background-position: right center; 
+}
+.helphover div, .reply, .highlight, .reflinkpreview {
+	background: #EDD46E;
+	border-color: #FFFDDD;
+}
+.highlight, .reflinkpreview {
+	border-left-color: #818;
+}
+
+.filetitle {
+	color: #d01090;
+	font-family: 'Coming Soon';
+}
+.postername, .postername a {
+	color: #CF4B87;
+	font-family: 'Coming Soon';
+}
+.postertrip {
+	color: #E57EB3;
+	font-family: 'Coming Soon';
+}
+.unkfunc {
+	color: #a030c0;
+}

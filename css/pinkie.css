@@ -1,0 +1,110 @@
+body, a, h2 {
+	font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+body {
+	background: #ffe0f4;
+	font-size: 0.95em;
+}
+#bodywrap1 {
+	background: url('pinkie-right.png') repeat-y right top;
+}
+#bodywrap2 {
+	background: url('pinkie-top.png') repeat-x center top;
+}
+#bodywrap3 {
+	background: url('pinkie-bottom.png') repeat-x center bottom;
+}
+html, body, #bodywrap1, #bodywrap2, #bodywrap3 {
+	min-height: 100%;
+}
+.logo {
+	color: #e050a0;
+}
+a, .reflink a {
+	text-decoration: none;
+}
+a, a:visited, a:active {
+	color: #803;
+}
+a:hover, .reflink a:hover {
+	color: #e050a0;
+}
+
+#verytopbar, #themedropdown, #watchedthreads {
+	box-shadow: 3px 3px 8px #724;
+	-moz-box-shadow: 3px 3px 8px #724;
+	-webkit-box-shadow: 3px 3px 8px #724;
+}
+.darkbar, #themedropdown {
+	background: #702040;
+}
+.darkbar a {
+	color: #ffa0b0;
+	border-top-color: #a45;
+}
+#verytopbar a:hover {
+	background: #5c1030;
+}
+.darkbar a:hover {
+	color: #ffe0f4;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+	border-top-color: #e8a;
+}
+
+#siteleftsidebar a:hover, #topmenu .tab {
+	background: #ffc0d8;
+}
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+	background: #f0a0b0;
+}
+.sitesidebar h2, #topmenu .tab, #sitemiddle h2 {
+	border: 1px solid #a05080;
+}
+.sitesidebar h2, #sitemiddle h2 {
+	-moz-box-shadow: 3px 3px 3px #b9a;
+	-webkit-box-shadow: 3px 3px 3px #b9a;
+	box-shadow: 3px 3px 3px #b9a;
+}
+#sitemiddle .newssubtitlebar, #sitemiddle .permalink {
+	line-height: 2.1em;
+}
+
+.postblock {
+	background: #f0b8d0;
+	color: #c02050;
+}
+.postarea input[type=text], .postarea input[type=password], .postarea textarea {
+	border-color: #ffb0c0;
+}
+.postarea input[type=text]:focus, .postarea input[type=password]:focus, .postarea textarea:focus {
+	border-color: #ff00a0;
+}
+.postarea textarea {
+	padding-right: 100px;
+	background-image: url('pinkie-pop-right.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.helphover div, .reply, .highlight, .reflinkpreview {
+	background: #fcc8e8;
+	color: #000;
+}
+.highlight, .reflinkpreview {
+	border-left-color: #c48;
+}
+
+.filetitle {
+	color: #e050a0;
+}
+.postername, .postername a {
+	color: #b02050;
+	border-bottom-color: #e06080;
+}
+.postertrip {
+	color: #c48;
+}
+.unkfunc {
+	color: #a04060;
+}

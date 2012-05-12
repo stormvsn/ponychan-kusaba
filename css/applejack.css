@@ -1,0 +1,195 @@
+body { background: #ffefad; }
+
+hr{
+	background-color: #ed5d11;
+	border: 0px;
+	height: 2px;
+	margin: 0px;
+}
+
+/*		ANCHOR		*/
+a			{ color: #d92525; }
+a:visited	{ color: #881d1d; }
+a:hover		{ color: #fc7272; }
+
+/*		BOARD TITLE		*/
+.logo { color: #fff; font-weight: bold; background-color: #fba536; }
+.logo:before, .logo:after{ display: inline-block; vertical-align: bottom; }
+.logo:before	{ margin-right: 4%; content: url('images/applejack_freckles_l.png'); }
+.logo:after		{ margin-left: 5%; content: url('images/applejack_freckles_r.png'); }
+
+/*		TOP NAV		*/
+.darkbar, #themedropdown{
+	-moz-box-shadow: 0px 0px 0px;
+	box-shadow: 0px 0px 0px;
+	-webkit-box-shadow: 0px 0px 0px;
+	background: #91ca40;
+	margin: 0px;
+}
+#themedropdown{ background: #84a12d; }
+	/*		BOARD LINK CONTAINER		*/
+	.navbar{ padding-left: 20px; }
+	/*		ANCHOR		*/
+	.darkbar a{
+		color: #203f0c;
+		border-top-color: #f3d634;
+		margin: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.darkbar a:hover { color: black; }
+	#verytopbar a:hover { background: #fff798; }
+		/*		CURRENT		*/
+		.darkbar a:hover, .darkbar .navbarcurboard 	{ border-top-color: red; }
+		.darkbar .navbarcurboard 							{ font-weight: bold; }
+	/*		MAIN PAGE TITLE		*/
+	#verytopbar h1{ color: #d04840; text-shadow: 1px 1px 1px #000; }
+		/*		SUB TEXT		*/
+		#verytopbar h3{ opacity: 1; font-size: 0px; }
+		#verytopbar h3:after{
+			display: block;
+			font-style: italic;
+			font-size: 24px;
+			content: '"Now 20% applier."';
+		}
+
+/*		SIDE BAR		*/
+.sitesidebar				{ background: #fdbc60; }
+	/*		SUB MENU		*/
+	.sitesidebar h2{
+		background: #fba536;
+		color: #fff;
+		border-width: 0px;
+		border-top-width: 2px;
+		border-bottom-width: 2px;
+		border-style: solid;
+		border-color: #ed5d11;
+	}
+	.sitesidebar .menuexpander	{ color: #fff; }
+	.sitesidebar a:hover		{ background-color: #fff;}
+
+/*		NEWS/FAQ/RULES		*/
+#sitemiddle #topmenu .tab{
+	border: none;
+	background: #df746f;
+	margin-left: 2px;
+}
+#sitemiddle #topmenu .tab a{ color: white; }
+	/*		CURRENT		*/
+	.newsentry h2, #sitemiddle #topmenu .current {
+		background: #d7342d;
+		color: #fff;
+		margin-left: 0px;
+	}
+	
+/*		RECENT POSTS		*/
+#siterightsidebar { background: #fdbc60; }
+#siterightsidebar h2 { background: #a73d38; text-align: center; color: #fff; margin: 0px; }
+#siterightsidebar hr { margin: 0px; margin-top: 8px; }
+	/*		RECENT POST		*/
+	.recentpostheaderline { background: #fba536; padding-left: 4px; font-size: .9em;}
+	.recentpostheaderline a { color: white; } 
+	
+/*		POST FORM		*/
+.postarea{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	background-color: #fdbc60;
+	background-image: url('images/applejack_aj.png');
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+.postarea table{
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+.postarea>hr{ margin-top: 10px; }
+	/*		FORM RIGHT LABELS		*/
+	#posttypeindicator, .postarea label[for='spoiler'] { text-transform: capitalize; font-size: .8em; }
+	/*		INPUT		*/
+	.postarea input[type=text], .postarea input[type=password], .postarea textarea,
+	.postarea input[type=text]:focus, .postarea input[type=password]:focus , .postarea textarea:focus
+	{ border-width: 0px; margin: 0px; }
+	/*		FORM LEFT LABELS		*/
+	.postblock 			{ text-align: right; }
+	.postblock:after	{ color: #fff; font-size: 1.2em; content: " :"; }
+	/*		BELOW RULES		*/
+	.rules{ font-size: .7em; }
+	/*		HELP BUTTONS		*/
+	/*a[onclick="return togdisp('msghelp')"], a[onclick="return togdisp('emailhelp')"], a[onclick="return togdisp('namehelp')"] 
+	{ display: inline-block; width: 24px; height: 24px; vertical-align: bottom; background-image: url("images/applejack_help.png"); }
+	a[onclick="return togdisp('msghelp')"] img, a[onclick="return togdisp('emailhelp')"] img, a[onclick="return togdisp('namehelp')"] img
+	{ display: none;}*/
+
+/*		THREAD		*/
+#delform>div>div>table{
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin-top: 3px;
+}
+#delform>hr{ margin-top: 40px; }
+.filetitle		{ color: #4d7a29; font-size: 1.4em; }
+.posttime		{ font-size: .8em; font-style: normal; }
+.admin			{ font-weight: bold; border-width: 0px; font-size: 1.1em;}
+.mod			{ font-weight: bold; border-width: 0px; font-size: 1.1em;}
+.postertrip 	{ color: #57932b; font-size: 1.1em;}
+.omittedposts	{ font-size: .9em; color: #a37c79; }
+.unkfunc { color: #5d9d09; }
+	/*		NAME		*/
+	.postername		{ color: #2b2723; font-size: 1.1em;}
+	.postername a	{ color: #796243; border-bottom: 0px; }
+	/*		FILE SIZE		*/
+	.filesize{
+		display: inline-block;
+		width: 99%;
+		padding-left: 10px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		background-color: #91ca40;
+		font-weight: bold;
+	}
+	.filesize a{ color: black; text-decoration: underline; font-size: .9em; }
+	/*		EXTRA BUTTONS*/
+	a[title='Hide Thread'], a[title='Watch Thread'], a[title='Expand Thread'], a[title='Quick Reply'], a[title='Un-Hide Thread']
+	{ display: inline-block; width: 16px; height: 16px; }
+	a[title='Hide Thread'] img, a[title='Watch Thread'] img, a[title='Expand Thread'] img, a[title='Quick Reply'] img, a[title='Un-Hide Thread'] img
+	{ display: none; }
+	a[title='Hide Thread']		{ background-image: url("images/applejack_hide.png"); }
+	a[title='Watch Thread']		{ background-image: url("images/applejack_watch.png"); }
+	a[title='Expand Thread'], a[title='Un-Hide Thread']	
+	{ background-image: url("images/applejack_expand.png"); }
+	a[title='Quick Reply']		{ background-image: url("images/applejack_quickreply.png"); }
+	/*		REPLY		*/
+	.reply				{ padding: 4px; font-size: .9em;}
+	.reply>blockquote 	{ font-size: 1.1em; }
+	.reply .filesize	{ display: span; background-color: transparent; font-size: .9em; }
+	.highlight 			{ border-style: solid; border-color: red; border-width: 2px;}
+	.helphover div, .reply, .highlight, .reflinkpreview 	{ background: #ffd990; }
+	.reflinkpreview { 
+		-moz-box-shadow: 0px 0px 0px; 
+		box-shadow: 0px 0px 0px; 
+		-webkit-box-shadow: 0px 0px 0px; 
+		border-style: solid; 
+		border-color: #b3352f; 
+		border-width: 3px;
+	}
+
+/*		WATCHED THREADS		*/
+#watchedthreads{ 
+	-moz-box-shadow: 0px 0px 0px; 
+	box-shadow: 0px 0px 0px;
+	-webkit-box-shadow: 0px 0px 0px;
+	border-style: solid; 
+	border-color: #b3352f; 
+	border-width: 3px; 
+	padding: 0px;
+}
+#watchedthreadsdraghandle{ background: #fdbc60; }
+	/*		BUTTONS		*/
+	#watchedthreadsbuttons { padding: 4px; }
+	#watchedthreadsbuttons a[title='Hide the watched threads box'], #watchedthreadsbuttons a[title='Refresh watched threads']
+	{ display: inline-block; width: 16px; height: 16px; }
+	#watchedthreadsbuttons a[title='Hide the watched threads box'] img, #watchedthreadsbuttons a[title='Refresh watched threads'] img
+	{ display: none; }
+	#watchedthreadsbuttons a[title='Hide the watched threads box'] { background-image: url("images/applejack_hidewt.png"); }
+	#watchedthreadsbuttons a[title='Refresh watched threads'] { background-image: url("images/applejack_refresh.png"); }

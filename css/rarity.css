@@ -1,0 +1,243 @@
+@import "http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911";
+@import "http://fonts.googleapis.com/css?family=Dancing+Script";
+body {
+background:#EEF2F5;
+}
+@media (min-width:900px) {
+#bodywrap1 {
+background: url("http://www.ponychan.net/chan/themes/src/130117970096.gif") no-repeat 5em 6em;
+}
+#delform, hr{ 
+width:auto;
+margin-right: 245px;
+}
+#bodywrap2 {
+background: url('http://www.ponychan.net/chan/themes/src/130101559210.png') no-repeat fixed right center;
+}
+}
+/*CHANGE SLIGHTLY FOR READABILITY*/
+#watchedthreadlist .filetitle {
+font-size:130%;
+font-style:italic;
+font-family: 'Goudy Bookletter 1911',arial,serif;
+color: #4C166E;
+}
+.logo {
+color: #4C166E;
+font-family: 'Dancing Script',arial,serif;
+text-shadow: 0 0 3px #4C166E;
+font-weight:400;
+}
+a, p, h3,h4,h5,h6,body{
+font-family: 'Goudy Bookletter 1911',arial,serif;
+-o-transition-duration: 0.5s;
+-o-transition-property: background-color, color;
+-webkit-transition-duration: 0.5s;
+-webkit-transition-property: background-color, color;
+border-radius: 5px;
+}
+a,.reflink a, a:active, .reflink a:active {
+color: #2C6097;
+}
+a:visited{
+color: #6D4CB8;
+}
+a:hover, .reflink a:hover {
+-moz-transition-duration: 0.5s;
+-moz-transition-property: background-color, color;
+-moz-transition-timing-function: ease-out;
+color: #9C71EB;
+}
+#verytopbar{
+box-shadow: 0 0 5px 3px #4C176F;
+}
+.darkbar{
+background:#4C176F
+}
+.darkbar{
+background: -webkit-gradient(linear, center top, center bottom, from(#8650A4), to(#4C176F));
+background: -moz-linear-gradient(center top, #8650A4, #4C176F 80%) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF8650A4, endColorstr=#FF4C176F );
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF8650A4, endColorstr=#FF4C176F )";
+}
+.darkbar, #themedropdown {
+color: #BFA2F5;
+}
+#themedropdown{
+box-shadow: 0 0 2px 2px #592E74;
+background: #592E74;
+}
+#themedropdown a{
+background: #592E74;
+color:#B084AF;
+border-radius: 0;
+}
+#themedropdown a:hover {
+border-radius: 0;
+-moz-transition-duration: 0.5s;
+-moz-transition-property: background-color, color;
+background:#4C176F;
+color: #4A8AD5 ;
+}
+.darkbar a {
+color: #BFA2F5;
+border-radius: 0;
+-moz-transition-duration: 0s;
+-o-transition-duration: 1s;
+-webkit-transition-duration: 1s;
+border-top-color: #BFA2F5;
+background: -moz-linear-gradient(center top , #7D479C, #4C176F 80%);
+}
+#verytopbar a:hover {
+-moz-transition-duration: 0.5s;
+-moz-transition-property: background-color, color;
+background:#4C176F;
+}
+.darkbar a:hover {
+-moz-transition-duration: 0.5s;
+-moz-transition-property: background-color, color;
+color: #4A8AD5;
+border-top-color:#71CCF2 !important;
+}
+.darkbar .navbarcurboard {
+border-top-color:#71CCF2!important;
+color: #4A8AD5;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+border-top-color: #4C176F;
+}
+#verytopbar h1{
+font-family: 'Dancing Script',arial,serif;
+text-shadow: 0 0 14px #71CBF0;
+font-size:600%;
+color:#71CBF0;
+background:#4C176F;
+}
+.userdelete
+{
+border-radius: 5px;
+background-color: #9DE9FC;
+margin: 3em 0 0 0 ;
+}
+.postblock {
+background:#6ECEF4;
+font-family: 'Goudy Bookletter 1911',arial,serif;
+}
+.postarea{
+margin: 0 0 0 100px !important;
+}
+.postarea input[type="text"], .postarea input[type="password"],.postarea textarea
+{
+font-family: 'Goudy Bookletter 1911',arial,serif;
+font-size:100%;
+border-color: #219ECE;
+width:15em;
+}
+.postarea textarea
+{
+width:24em;
+}
+.postarea input[type="text"]:focus, .postarea input[type="password"]:focus, .postarea textarea:focus {
+border-color: #3379BF;
+}
+.postarea textarea {
+font-family: 'Goudy Bookletter 1911',arial,serif;
+height: 7em;
+}
+.helphover div, .reply, .highlight, .reflinkpreview {
+background:#6ECEF4;
+}
+.highlight, .reflinkpreview {
+border-left-color: #4C166E;
+}
+/*form>div, form>div a {
+font-family: 'Goudy Bookletter 1911', arial, serif;
+}*/
+form > div table .reply {
+border-radius: 5px;
+background-color: #9DE9FC;
+}
+form > div table:nth-of-type(2n) .reply {
+background-color: #C1E9F3;
+}
+.filetitle {
+color: #3379BF;
+font-family: 'Dancing Script',arial,serif;
+font-size: 150%;
+}
+.postername, .postername a {
+color: #4C166E;
+font-family: 'Goudy Bookletter 1911',arial,serif;
+font-size: 110%;
+}
+.postertrip {
+color: #654EA0;
+font-family: 'Goudy Bookletter 1911',arial,serif;
+font-style: italic;
+}
+.unkfunc {
+color: #A030C0;
+}
+#bodywrapmain3{
+font-family: 'Goudy Bookletter 1911',arial,serif;}
+#bodywrapmain3 h2 { font-family: 'Dancing Script',arial,serif;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color:#71CBF0;
+background:#4D186F;
+padding: 0 0 0 0.3em;
+}
+#verytopbar h3{
+font-family: 'Dancing Script',arial,serif;
+font-size: 0;
+opacity: 1;
+color:#71CBF0;  
+font-weight:400;
+background:#4C176F;
+}
+#verytopbar h3:after {
+content: "\"Now 20% more fabulous!\"";
+font-size: 20pt; 
+}
+.sitesidebar a:hover, #topmenu .tab {
+background: #654EA0;
+}
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+background:#4D186F;
+}
+#sitemiddle #topmenu .tab a{
+color: #8650A4;
+}
+#sitemiddle .newsentry h2{
+border-radius: 0 5px 5px 5px;
+}
+#sitemiddle #topmenu .tab a:visited,#sitemiddle #topmenu .tab a,#sitemiddle #topmenu .tab a:active{
+color: #71CBF0;
+}
+#sitemiddle #topmenu .tab a:hover{
+color: #BFA2F5;
+}
+#topmenu .tab, #sitemiddle #topmenu .current { 
+font-family: 'Dancing Script',arial,serif;
+background:#4D186F;
+}
+.sitesidebar {
+font-size: 1.0em;
+}
+.sitesidebar li .boardlink:hover {
+background: #8650A4;
+}
+.sitesidebar .menuexpander {
+color: #71CBF0;
+border-radius: 0 5px 5px 0;
+margin:0;
+font-size:0.9em;
+padding-bottom:1px;
+}
+.sitesidebar .menuexpander:hover {
+background: #8650A4;
+}
+.sitesidebar li .boardlink:hover {
+background: #8650A4;
+color: #6CC5EB;
+}

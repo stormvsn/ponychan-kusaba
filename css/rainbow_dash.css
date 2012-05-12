@@ -1,0 +1,282 @@
+@import "http://fonts.googleapis.com/css?family=Allan:bold";
+
+body {
+	font-family: "Trebuchet MS";
+	background: rgb(210, 238, 251) url(http://www.ponychan.net/chan/themes/src/130172965087.png) repeat-x right top;
+}
+
+#bodywrap1 {
+	background: transparent url(http://www.ponychan.net/chan/themes/src/130173217433.png) no-repeat fixed right top;
+}
+
+.darkbar, #themedropdown {
+	background-color: rgb(18, 53, 85);
+}
+
+#delform, #postform, #bodywrapmain1 {
+	font-size: 90%;
+}
+
+#delform {
+	background: rgb(210, 238, 251) url(http://www.ponychan.net/chan/themes/src/130172959670.png) no-repeat fixed right top;
+}
+
+.userdelete {
+	background-color: rgb(210, 238, 251);
+}
+
+.logo {
+	color: rgb(0, 0, 0);
+	font: 5em "Allan";
+	text-shadow: 0px 0px 0px rgb(233, 247, 253),
+		-70px 0px 5px rgba(255, 0, 0, 0.2), -40px 0px 5px rgba(255, 165, 0, 0.2),
+		-10px 0px 5px rgba(255, 255, 0, 0.2), 20px 0px 5px rgba(0, 255, 0, 0.2),
+		50px 1px 5px rgba(0, 0, 255, 0.2), 90px 1px 5px rgba(165, 0, 255, 0.2);
+}
+
+#verytopbar h1 {
+	color: rgb(255, 255, 255);
+	font: 5em "Allan";
+	text-shadow: 0px 0px 0px rgb(233, 247, 253),
+		-70px 0px 5px rgba(255, 0, 0, 0.2), -40px 0px 5px rgba(255, 165, 0, 0.2),
+		-10px 0px 5px rgba(255, 255, 0, 0.2), 20px 0px 5px rgba(0, 255, 0, 0.2),
+		50px 1px 5px rgba(0, 0, 255, 0.2), 90px 1px 5px rgba(165, 0, 255, 0.2),
+		0px 0px 120px rgb(255, 255, 255);
+}
+
+#verytopbar h3 {
+	margin-left: 10em;
+	opacity: 1;
+}
+
+#verytopbar h3 em {
+	font: italic bold 0.7em "Trebuchet MS";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-shadow: -2em 0px 1px rgba(255, 255, 255, 0.15), -4em 0px 1px rgba(255, 255, 255, 0.12),
+		-6em 0px 1px rgba(255, 255, 255, 0.09), -8em 0px 1px rgba(255, 255, 255, 0.06),
+		-10em 0px 1px rgba(255, 255, 255, 0.03), 0px 0px 2px rgb(18, 53, 85);
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	background-color: transparent;
+}
+
+a {
+	color: rgb(197, 28, 113);
+}
+
+a:hover {
+	color: rgb(211, 84, 148);
+}
+
+.darkbar a {
+	border-top-color: rgb(42, 73, 102);
+	color: rgb(255, 255, 255);
+}
+
+.darkbar a:hover {
+	border-top-color: rgb(252, 151, 157);
+}
+
+#verytopbar a:hover {
+	background-color: rgb(9, 27, 43);
+}
+
+.darkbar a:nth-of-type(6n+1):hover, .darkbar a.navbarcurboard:nth-of-type(6n+1) {
+	border-top-color: rgb(252, 151, 157);
+}
+
+.darkbar a:nth-of-type(6n+2):hover, .darkbar a.navbarcurboard:nth-of-type(6n+2) {
+	border-top-color: rgb(252, 183, 151);
+}
+
+.darkbar a:nth-of-type(6n+3):hover, .darkbar a.navbarcurboard:nth-of-type(6n+3) {
+	border-top-color: rgb(252, 249, 150);
+}
+
+.darkbar a:nth-of-type(6n+4):hover, .darkbar a.navbarcurboard:nth-of-type(6n+4) {
+	border-top-color: rgb(189, 252, 151);
+}
+
+.darkbar a:nth-of-type(6n+5):hover, .darkbar a.navbarcurboard:nth-of-type(6n+5) {
+	border-top-color: rgb(151, 222, 252);
+}
+
+.darkbar a:nth-of-type(6n):hover, .darkbar a.navbarcurboard:nth-of-type(6n) {
+	border-top-color: rgb(239, 151, 252);
+}
+
+#siteleftsidebar ul > li > a:hover {
+	background-color: rgb(252, 151, 157);
+	border: 1px solid rgb(126, 75, 78);
+	margin-top: -1px;
+	margin-bottom: -1px;
+	color: rgb(0, 0, 0);
+}
+
+#siteleftsidebar ul > li:nth-of-type(6n+1) > a:hover {
+	background-color: rgb(252, 151, 157);
+	border: 1px solid rgb(126, 75, 78);
+}
+
+#siteleftsidebar ul > li:nth-of-type(6n+2) > a:hover {
+	background-color: rgb(252, 183, 151);
+	border: 1px solid rgb(126, 91, 75);
+}
+
+#siteleftsidebar ul > li:nth-of-type(6n+3) > a:hover {
+	background-color: rgb(252, 249, 150);
+	border: 1px solid rgb(126, 124, 75);
+}
+
+#siteleftsidebar ul > li:nth-of-type(6n+4) > a:hover {
+	background-color: rgb(189, 252, 151);
+	border: 1px solid rgb(94, 126, 75);
+}
+
+#siteleftsidebar ul > li:nth-of-type(6n+5) > a:hover {
+	background-color: rgb(151, 222, 252);
+	border: 1px solid rgb(75, 111, 126);
+}
+
+#siteleftsidebar ul > li:nth-of-type(6n) > a:hover {
+	background-color: rgb(239, 151, 252);
+	border: 1px solid rgb(119, 75, 126);
+}
+
+.sitesidebar h2 {
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 4px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+,sitesidebar hr {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.newsentry h2, .sitesidebar h2 {
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.sitesidebar h2 {
+	padding-left: 0.3em;
+}
+
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+	background-color: rgb(232, 246, 253);
+	border: 1px solid rgb(163, 172, 177) !important;
+}
+
+#topmenu .current {
+	border-bottom: 0px !important;
+}
+
+#topmenu .tab {
+	background-color: rgb(189, 214, 226);
+	border: 1px solid rgb(163, 172, 177) !important;
+	border-bottom: 0px !important;
+	position: relative;
+	top: -1px;
+}
+
+.postblock, .postarea input[type=text], .postarea input[type=password], .postarea textarea, .reply {
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.postblock {
+	background-color: rgb(252, 151, 157);
+	border: 1px solid rgb(126, 75, 78);
+}
+
+tr:nth-of-type(6n+1) > .postblock {
+	background-color: rgb(252, 151, 157);
+	border: 1px solid rgb(126, 75, 78);
+}
+
+tr:nth-of-type(6n+2) > .postblock {
+	background-color: rgb(252, 183, 151);
+	border: 1px solid rgb(126, 91, 75);
+}
+
+tr:nth-of-type(6n+3) > .postblock {
+	background-color: rgb(252, 249, 150);
+	border: 1px solid rgb(126, 124, 75);
+}
+
+tr:nth-of-type(6n+4) > .postblock {
+	background-color: rgb(189, 252, 151);
+	border: 1px solid rgb(94, 126, 75);
+}
+
+tr:nth-of-type(6n+5) > .postblock {
+	background-color: rgb(151, 222, 252);
+	border: 1px solid rgb(75, 111, 126);
+}
+
+tr:nth-of-type(6n) > .postblock {
+	background-color: rgb(239, 151, 252);
+	border: 1px solid rgb(119, 75, 126);
+}
+
+.postarea input[type=text], .postarea input[type=password], .postarea textarea {
+	border: 1px solid rgb(128, 128, 128);
+}
+
+.postarea input[type=text]:focus, .postarea input[type=password]:focus, .postarea textarea:focus {
+	margin: 0px;
+	border: 1px solid rgb(75, 111, 126);
+}
+
+.reply, .highlight {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.reflinkpreview, .helphover div {
+	background-color: rgb(210, 238, 251);
+	border: 1px solid rgb(163, 172, 177);
+}
+
+.highlight {
+	background: rgba(255, 255, 255, 0.9) url(http://www.ponychan.net/chan/themes/src/130173196373.png) no-repeat bottom left;
+	padding-left: 1em;
+	-webkit-transition: padding 0.2s ease-out, background-color 0.2s ease-out;
+	-moz-transition: padding 0.2s ease-out, background-color 0.2s ease-out;
+	-o-transition: padding 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+.filetitle {
+	color: rgb(16, 16, 224);
+}
+
+.postername {
+	color: rgb(32, 48, 144);
+}
+
+.postertrip {
+	color: rgb(64, 96, 176);
+}
+
+.omittedposts {
+	color: rgb(64, 64, 64);
+}
+
+.unkfunc {
+	color: rgb(74, 134, 30);
+}
