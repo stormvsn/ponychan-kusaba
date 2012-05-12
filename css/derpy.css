@@ -164,7 +164,7 @@ a:hover, .reflink a:hover {
 	-moz-box-shadow: 3px 3px 3px #A3ABBD inset;
 	-webkit-box-shadow: 3px 3px 3px #A3ABBD inset;
 	box-shadow: 3px 3px 3px #A3ABBD inset;
-	background-image:url('/chan/themes/src/130091579241.png');
+	background-image:url('images/derpy/away.png');
 	background-repeat:no-repeat;
 }
 
@@ -175,12 +175,12 @@ a:hover, .reflink a:hover {
 
 tr:nth-of-type(6) > .postblock {
 	background-repeat:no-repeat;
-	background-image:url('/chan/themes/src/130091579241.png');
+	background-image:url('images/derpy/away.png');
 }
 
 tr:nth-of-type(4) > .postblock {
 	background-repeat:no-repeat;
-	background-image:url('/chan/themes/src/130091579241.png');
+	background-image:url('images/derpy/away.png');
 	background-position: bottom right;
 	margin:12px;
 	transform:rotate(5deg);
@@ -233,7 +233,7 @@ form > div table:nth-of-type(13) .reply {
 form > div table:nth-of-type(13n+293) .reply {
 	padding-left:42px;
 	padding-bottom:42px;
-	background-image:url('/chan/themes/src/130168832574.png');
+	background-image:url('images/derpy/eyesopen.png');
 	background-repeat:no-repeat;
 	background-position:bottom left;
 }
@@ -241,7 +241,7 @@ form > div table:nth-of-type(13n+293) .reply {
 form > div table:nth-of-type(17n+311) .reply {
 	padding-left:42px;
 	padding-bottom:42px;
- 	background-image:url('/chan/themes/src/130168834199.png');
+ 	background-image:url('images/derpy/eyesshut.png');
 	background-repeat:no-repeat;
 	background-position:bottom left;
 }
@@ -257,7 +257,7 @@ form > div table:nth-of-type(17n+311) .reply {
 }
 
 .helphover div {
-	background-image:url('/chan/themes/src/130168832574.png');
+	background-image:url('images/derpy/eyesopen.png');
 	padding-left:42px;
 	padding-bottom:76px;
 	background-repeat:no-repeat;
@@ -289,7 +289,7 @@ form > div table:nth-of-type(17n+311) .reply {
 	-webkit-border-radius: 42px 0px 42px 0px;
         text-align: center;
 	color: white;
-	background-image:url('/chan/themes/src/130168834199.png');
+	background-image:url('images/derpy/eyesshut.png');
 	background-repeat:no-repeat;
 	background-position:bottom left;
 	-moz-box-shadow: 3px 3px 3px #5C606B inset;
