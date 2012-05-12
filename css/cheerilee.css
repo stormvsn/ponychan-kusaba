@@ -2,7 +2,7 @@ body {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFAQMAAAC3obSmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9sDEg0rG/1QBF4AAAAGUExUReWkyuzM3tllSp8AAAABYktHRACIBR1IAAAAEklEQVQIHWOwYChgeMBwgmEGAAxiAunMUp95AAAAAElFTkSuQmCC") repeat scroll 0 0 transparent;
 }
 #bodywrap2 {
-    background: url("http://i.imgur.com/Ua72a.png") no-repeat fixed right bottom transparent;
+    background: url("images/cheerilee/cm.png") no-repeat fixed right bottom transparent;
 }
 a, a:visited {
     color: #f3eaa6;
@@ -102,7 +102,7 @@ a:hover, .reflink a:hover {
     padding-right: 180px;
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-image: url("http://i.imgur.com/oZ3R5.png");
+    background-image: url("images/cheerilee/postarea.png");
 
 }
 .helphover div, .reply, .highlight, .reflinkpreview, #delform > div > blockquote {
