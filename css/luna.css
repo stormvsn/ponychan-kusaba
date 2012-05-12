@@ -1,6 +1,6 @@
 @import "http://fonts.googleapis.com/css?family=Josefin+Sans:700";
 body { 
-background-image: url("http://www.ponychan.net/chan/themes/src/130136165483.png");
+background-image: url("images/luna/bg.png");
 background-attachment: scroll;
 background-repeat: repeat;
 background-position: 0% 0%;
@@ -115,7 +115,7 @@ color:#fff;
 font-size:16px;
 }
 .postarea textarea { 
-background-image: url("http://www.ponychan.net/chan/themes/src/130108296067.png");
+background-image: url("images/luna/postarea.png");
 background-color:#000;
 color:#fff;
 padding-right: 115px;
