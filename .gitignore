@@ -8,10 +8,15 @@
 *.zip
 
 /css/icons/
-/css/images/
+/css/images/*
 /dwoo/cache/
 /dwoo/configs/
 /dwoo/templates_c/
 /kusabaoek/
 /lib/fonts/
 /modchat/
+
+!/css/images/*/
+!/css/images/*/*.png
+!/css/images/*/*.jpg
+!/css/images/*/*.gif
