@@ -1,0 +1,74 @@
+body {
+	background: #f0e0f0;
+}
+.logo {
+	color: #601060;
+}
+a, a:visited, a:active {
+	color: #20a;
+}
+a:hover, .reflink a:hover {
+	color: #d0d;
+}
+
+.darkbar, #themedropdown {
+	background: #502050;
+}
+.darkbar a {
+	color: #e090e0;
+	border-top-color: #858;
+}
+#verytopbar a:hover {
+	background: #401040;
+}
+.darkbar a:hover {
+	color: #ffe0ff;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+	border-top-color: #d7d;
+}
+
+#siteleftsidebar a:hover, #topmenu .tab {
+	background: #e0b8e0;
+}
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+	background: #d8a0d8;
+}
+.sitesidebar h2, #topmenu .tab, #sitemiddle h2 {
+	border: 1px solid #a050a0;
+}
+.sitesidebar h2, #sitemiddle h2 {
+	-moz-box-shadow: 2px 2px 2px #cac;
+	-webkit-box-shadow: 2px 2px 2px #cac;
+	box-shadow: 2px 2px 2px #cac;
+}
+
+.postblock {
+	background: #c8c;
+}
+.postarea input[type=text], .postarea input[type=password], .postarea textarea {
+	border-color: #b060b0;
+}
+.postarea input[type=text]:focus, .postarea input[type=password]:focus, .postarea textarea:focus {
+	border-color: #c020c0;
+}
+
+.helphover div, .reply, .highlight, .reflinkpreview {
+	background: #e8c0e8;
+}
+.highlight, .reflinkpreview {
+	border-left-color: #818;
+}
+
+.filetitle {
+	color: #d01090;
+}
+.postername, .postername a {
+	color: #6000a0;
+}
+.postertrip {
+	color: #a040a0;
+}
+.unkfunc {
+	color: #a030c0;
+}

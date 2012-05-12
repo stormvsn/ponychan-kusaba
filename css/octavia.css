@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Modern+Antiqua&v2);
+@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore&v2);
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+
+body {
+	background: #9e9d9e;
+}
+#bodywrap1 {
+    background: url('images/octavia-cutie-mark.png')  transparent no-repeat bottom right fixed;
+}
+.logo {
+	color: #ff9df5;
+	text-shadow: 0 0 2px #FCF;
+	font-family: 'La Belle Aurore', cursive;
+}
+a {
+	color:#8B38B4;
+}
+a:hover, .reflink a:hover {
+	color: #8d5c92;
+	text-shadow:#a07db1 0px 0px 1px;
+}
+
+.darkbar, #themedropdown {
+	background: #a66c9d;
+}
+.darkbar a {
+	color: #FF9DF5;
+	border-top-color: #8B38B4;
+}
+#verytopbar a:hover {
+	background: #A660C9;
+}
+.darkbar a:hover {
+	color: #ff9df5;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+	border-top-color: #d7d;
+}
+
+#sitesidebar a:hover, #topmenu li {
+	background: #b089b4;
+}
+#sitesidebar h2, .newsentry h2, #topmenu li.current {
+	background: #966f90;
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 15px;
+}
+
+.postblock {
+	background: #966f90;
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 15px;
+}
+.postarea input[type=text], .postarea input[type=password], .postarea textarea {
+	border-color: #464646;
+}
+.postarea input[type=text]:focus, .postarea input[type=password]:focus, .postarea textarea:focus {
+	border-color: #a660c9;
+}
+.postarea textarea {
+	padding-right: 100px;
+	background-image: url('images/octavia-standing.png');
+	background-repeat: no-repeat;
+	background-position: right top; 
+}
+.helphover div, .reply, .highlight, .reflinkpreview {
+	background: #c4c4b8;
+	border: 2px ridge #CCC;	
+}
+.highlight, .reflinkpreview {
+	border-left-color: #818;
+}
+
+.filetitle {
+	color: #F5f5f5;
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 17px;
+}
+.postername, .postername a {
+	color: #EEE;
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 15px;
+}
+.postertrip {
+	color: #eee;
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 15px;
+}
+.unkfunc {
+	color: #a660c9;
+}hr {
+	color: #333;
+}

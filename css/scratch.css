@@ -1,0 +1,93 @@
+body {
+	background-color: #FFFFFF;
+	background-image: url('http://www.ponychan.net/chan/themes/src/130101870955.png');
+	background-position: right;
+	background-repeat: repeat-y;
+}
+
+.logo {
+    color: #420A31;
+    font-family: "Capacitor", Courier, monospace;
+}
+a {
+    color: #;
+}
+a:hover, .reflink a:hover {
+    color: #502669;
+}
+.darkbar, #themedropdown {
+    background-color: #4C9FFD
+}
+.darkbar {
+    background-image: url('http://www.ponychan.net/chan/themes/src/130101518178.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.darkbar a {
+    border-top-color: #370B45;
+    color: #000000;
+}
+#verytopbar a:hover {
+    background: none repeat scroll 0 0 #401040;
+}
+.darkbar a:hover {
+    color: #FFE0FF;
+}
+.darkbar a:hover, .darkbar .navbarcurboard {
+    border-top-color: #864FA4;
+}
+#watchedthreads .darkbar {
+    background-position: center top;
+}
+.sitesidebar a:hover, #topmenu .tab {
+    background: none repeat scroll 0 0 #654EA0;
+}
+.sitesidebar h2, .newsentry h2, #topmenu .current {
+    background: none repeat scroll 0 0 #328CBB;
+}
+.postblock {
+    background: none repeat scroll 0 0 #6ECEF4;
+}
+.postarea input[type="text"], .postarea input[type="password"], .postarea textarea {
+    border-color: #219ECE;
+}
+.postarea input[type="text"]:focus, .postarea input[type="password"]:focus, .postarea textarea:focus {
+    border-color: #3379BF;
+}
+
+.postarea textarea {
+
+    padding-right: 100px;
+
+    background-image: url('http://www.ponychan.net/chan/themes/src/130100656410.png');
+
+    background-repeat: no-repeat;
+
+    background-position: right center;
+
+}
+
+.helphover div, .reply, .highlight, .reflinkpreview {
+    background: none repeat scroll 0 0 #70B3D3;
+}
+.highlight, .reflinkpreview {
+    border-left-color: #4C166E;
+}
+.filetitle {
+    color: #3379BF;
+}
+.postername, .postername a {
+    color: #4C166E;
+}
+.postertrip {
+    color: #654EA0;
+}
+.unkfunc {
+    color: #A030C0;
+}
+.reply {
+	background: #70B3D3;
+        border-style: ridge;
+	border-color: #000;
+	border-width: 3px;
+}

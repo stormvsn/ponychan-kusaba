@@ -1,0 +1,34 @@
+body {	color: #eaeaea ;	font-family: "Century" ;	background: #5a124d url(http://www.ponychan.net/chan/themes/src/130168664777.jpg) repeat-x ;}
+.logo {	color: #ffffff ;	font-family: "Century" ;	font-weight: bold ;}
+a, a:visited, a:active {	font-family: "Century" ;	color:#e781d5 ;}
+a:hover, .reflink a:hover {	color: #e5d0e1 ;}
+hr {	border: 0 ;	height: 2px ;	color: #000000 ;	background-color: #000000 ;	background: #000000 url(http://i55.tinypic.com/20t0x6r.jpg) repeat-x ;}
+.darkbar {	background: #161f48 url(http://i53.tinypic.com/28ard5j.jpg) repeat-x ;}
+#themedropdown {	background: #161f48 ;}
+.darkbar a {	color: #97a4e1 ;	border-top-color: #97a4e1 ;}
+#verytopbar a:hover {	background: #480f3e url(http://www.ponychan.net/chan/themes/src/130168664777.jpg) repeat-x ;}
+.darkbar a:hover {	color: #fff ;}
+.darkbar a:hover, .darkbar {	border-top-color: #d9b2d2 ;}
+.darkbar .navbarcurboard {	background: #480f3e url(http://i54.tinypic.com/qx6pld.jpg) repeat-x ;	border-top-color: #5367c3 ;}
+.sitesidebar {	background: #4d0f42 repeat-x ;}
+.sitesidebar a:hover {	background: #7a196a url(http://i52.tinypic.com/t9wjed.jpg) repeat-x ;}
+#topmenu .tab {	background: #7a196a url(http://www.ponychan.net/chan/themes/src/130168664777.jpg) repeat-x ;}
+.sitesidebar h2, .newsentry h2, #topmenu .current {	background: #7a196a url(http://www.ponychan.net/chan/themes/src/130168664777.jpg) repeat-x ;}
+#sitemiddle .newsentry {	background: #4d0f42 ;}
+.sitesidebar .recentpostheaderline {	background: #7a196a url(http://i52.tinypic.com/t9wjed.jpg) ;}
+.sitesidebar h2 {	background: #7a196a ;}
+.sitesidebar {	background: #4d0f42 ;}
+.postblock {	background: #5a124d url(http://www.ponychan.net/chan/themes/src/130168664777.jpg) repeat-x ;}
+.postarea input[type=text], .postarea input[type=password] {	border-color: #b060b0 ;	background: #5a124d url(http://www.ponychan.net/chan/themes/src/130168664777.jpg) repeat-x ;	background-position:right top ;	color: #fff ;	font-family: "Century" ;}
+.postarea input[type=text]:focus, .postarea input[type=password]:focus {	border-color: #c020c0 ;	background: #5a124d url(http://www.ponychan.net/chan/themes/src/130168664777.jpg) repeat-x ;	background-position:right top ;	color: #fff ;	font-family: "Century" ;}
+.postarea textarea {	border-color: #b060b0 ;	background: #5a124d url(http://www.ponychan.net/chan/themes/src/130168648275.jpg) repeat-x ;	background-position:right top ;	color: #fff ;	font-family: "Century" ;}
+.postarea textarea:focus {	border-color: #c020c0 ;	background: #5a124d url(http://www.ponychan.net/chan/themes/src/130168648275.jpg) repeat-x ;	background-position:right top ;	color: #fff ;	font-family: "Century" ;}
+.helphover div, .reply, .highlight, .reflinkpreview {	border: 2px solid #791867 ;	background: #5a124d url(http://www.ponychan.net/chan/themes/src/130168664777.jpg) repeat-x ;}
+.highlight, .reflinkpreview {	border-left-color: #fff ;}
+.filetitle {	color: #d01090 ;}
+.postername, .postername a {	color: #ef4fa6 ;}
+.postertrip {	color: #ef2492 ;}
+.unkfunc {	color: #9756ce ;}
+.filesize {	color: #150412 ;}
+.omittedposts {	color: #ac2292 ;}
+/* Theme by actxyn */
