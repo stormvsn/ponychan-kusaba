@@ -26,10 +26,10 @@ Used tools and apps:
 @import "http://fonts.googleapis.com/css?family=Fontdiner+Swanky";
 
 body {
-    background: url("/chan/themes/src/130089514150.png") no-repeat fixed 99% 190px #B29F75;
+    background: url("images/timelord/cm.png") no-repeat fixed 99% 190px #B29F75;
 }
 #bodywrap1 {
-    background: url("/chan/themes/src/130090020213.png") no-repeat scroll 650px 100% transparent;
+    background: url("images/timelord/footer.png") no-repeat scroll 650px 100% transparent;
 }
 a, a:visited, a:active {
     color: #635536;
@@ -163,7 +163,7 @@ text-shadow: 2px 2px 2px rgb(16,188,16), 0 0 16px rgb(105,243,105);
 }
 .postarea textarea {
     border-color: #E9E374;
-    background-image: url("/chan/themes/src/130090048736.png");
+    background-image: url("images/timelord/postarea.png");
     background-position: left center;
     background-repeat: no-repeat;
     padding-left: 86px;

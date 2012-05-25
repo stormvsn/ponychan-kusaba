@@ -2,11 +2,11 @@
 
 body {
 	font-family: "Trebuchet MS";
-	background: rgb(210, 238, 251) url(http://www.ponychan.net/chan/themes/src/130172965087.png) repeat-x right top;
+	background: rgb(210, 238, 251) url("images/rainbow_dash/bg.png") repeat-x right top;
 }
 
 #bodywrap1 {
-	background: transparent url(http://www.ponychan.net/chan/themes/src/130173217433.png) no-repeat fixed right top;
+	background: transparent url("images/rainbow_dash/clouds_fg.png") no-repeat fixed right top;
 }
 
 .darkbar, #themedropdown {
@@ -18,7 +18,7 @@ body {
 }
 
 #delform {
-	background: rgb(210, 238, 251) url(http://www.ponychan.net/chan/themes/src/130172959670.png) no-repeat fixed right top;
+	background: rgb(210, 238, 251) url("images/rainbow_dash/clouds_bg.png") no-repeat fixed right top;
 }
 
 .userdelete {
@@ -254,7 +254,7 @@ tr:nth-of-type(6n) > .postblock {
 }
 
 .highlight {
-	background: rgba(255, 255, 255, 0.9) url(http://www.ponychan.net/chan/themes/src/130173196373.png) no-repeat bottom left;
+	background: rgba(255, 255, 255, 0.9) url("images/rainbow_dash/highlight.png") no-repeat bottom left;
 	padding-left: 1em;
 	-webkit-transition: padding 0.2s ease-out, background-color 0.2s ease-out;
 	-moz-transition: padding 0.2s ease-out, background-color 0.2s ease-out;

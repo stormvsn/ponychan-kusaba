@@ -5,14 +5,14 @@ background:#EEF2F5;
 }
 @media (min-width:900px) {
 #bodywrap1 {
-background: url("http://www.ponychan.net/chan/themes/src/130117970096.gif") no-repeat 5em 6em;
+background: url("images/rarity/cm.gif") no-repeat 5em 6em;
 }
 #delform, hr{ 
 width:auto;
 margin-right: 245px;
 }
 #bodywrap2 {
-background: url('http://www.ponychan.net/chan/themes/src/130101559210.png') no-repeat fixed right center;
+background: url("images/rarity/cb.png") no-repeat fixed right center;
 }
 }
 /*CHANGE SLIGHTLY FOR READABILITY*/

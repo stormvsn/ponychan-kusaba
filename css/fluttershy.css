@@ -5,7 +5,7 @@ body {
 	background: #FFF798;
 }
 #bodywrap1 {
-    background: url('/chan/themes/src/130090409187.png')  transparent no-repeat bottom right fixed;
+    background: url('images/fluttershy/cm.png')  transparent no-repeat bottom right fixed;
 }
 .logo {
 	color: #E57EB5;
@@ -56,7 +56,7 @@ a:hover, .reflink a:hover {
 }
 .postarea textarea {
 	padding-right: 100px;
-	background-image: url('/chan/themes/src/130090157510.png');
+	background-image: url('images/fluttershy/postarea.png');
 	background-repeat: no-repeat;
 	background-position: right center; 
 }

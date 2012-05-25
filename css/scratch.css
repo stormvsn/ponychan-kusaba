@@ -1,6 +1,6 @@
 body {
 	background-color: #FFFFFF;
-	background-image: url('http://www.ponychan.net/chan/themes/src/130101870955.png');
+	background-image: url('images/scratch/bg.png');
 	background-position: right;
 	background-repeat: repeat-y;
 }
@@ -19,7 +19,7 @@ a:hover, .reflink a:hover {
     background-color: #4C9FFD
 }
 .darkbar {
-    background-image: url('http://www.ponychan.net/chan/themes/src/130101518178.png');
+    background-image: url('images/scratch/navbar.png');
     background-position: right top;
     background-repeat: no-repeat;
 }
@@ -59,7 +59,7 @@ a:hover, .reflink a:hover {
 
     padding-right: 100px;
 
-    background-image: url('http://www.ponychan.net/chan/themes/src/130100656410.png');
+    background-image: url('images/scratch/postarea.png');
 
     background-repeat: no-repeat;
 
