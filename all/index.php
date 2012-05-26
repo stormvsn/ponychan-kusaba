@@ -113,6 +113,15 @@ var overpony = {
 			parts.push(parts[0].next('br'));
 			parts.push(parts[1].next('hr'));
 			parts[show ? 'show' : 'hide']();
+			var threadID = /thread(\d+.+)\$/.exec(this.id)[1];
+			if (hiddenthreads.toString().indexOf(threadID) !== -1) {
+				if (show) {
+					this.hide();
+					jQuery("unhide" + this.id).style.display = 'block';
+				} else {
+					jQuery("unhide" + this.id).hide();
+				}
+			}
 		});
 	}
 };
