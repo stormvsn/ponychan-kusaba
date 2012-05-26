@@ -90,7 +90,7 @@ var overpony = {
 		if (!s)
 			s = {boards: this.allBoards};
 		jQuery(this.settingsForm).find('.boardCheck').each(function () {
-			this.checked = s.boards.indexOf(this.getAttribute('data-boardname')) !== -1;
+			this.checked = s.boards.indexOf('"'+this.getAttribute('data-boardname')+'"') !== -1;
 		});
 		return s;
 	},
@@ -108,7 +108,7 @@ var overpony = {
 		jQuery('.thread').each(function () {
 			var \$this = jQuery(this);
 			var boardName = /thread\d+(.+)\$/.exec(this.id)[1];
-			var show = settings.boards.indexOf(boardName) !== -1;
+			var show = settings.boards.indexOf('"'+boardName+'"') !== -1;
 			var parts = \$this;
 			parts.push(parts[0].next('br'));
 			parts.push(parts[1].next('hr'));
