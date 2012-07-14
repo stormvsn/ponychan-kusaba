@@ -117,9 +117,9 @@ var overpony = {
 			if (hiddenthreads.toString().indexOf(threadID) !== -1) {
 				if (show) {
 					this.hide();
-					jQuery("unhide" + this.id).style.display = 'block';
+					jQuery("#unhide" + this.id).style.display = 'block';
 				} else {
-					jQuery("unhide" + this.id).hide();
+					jQuery("#unhide" + this.id).hide();
 				}
 			}
 		});
