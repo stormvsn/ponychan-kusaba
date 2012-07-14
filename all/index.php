@@ -88,7 +88,7 @@ var overpony = {
 	loadSettings: function () {
 		var s = JSON.parse(window.localStorage.getItem('overponySettings'));
 		if (!s)
-			s = {boards: this.allBoards};
+			s = {boards: '$jsboards'};
 		jQuery(this.settingsForm).find('.boardCheck').each(function () {
 			this.checked = s.boards.indexOf('"'+this.getAttribute('data-boardname')+'"') !== -1;
 		});
