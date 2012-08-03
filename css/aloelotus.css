@@ -1,0 +1,203 @@
+blockquote {
+    color: #000;
+}
+
+body {
+    color: #000;
+    background-color: #9BE2FF;
+}
+
+hr {
+    border-bottom-color: #FFAAD7;
+}
+
+h1, h2 {
+    background-color: transparent;
+    color: #EA83B5;
+    text-align: center;
+    font-family: Georgia;
+}
+
+label {
+    color: #000;
+}
+
+#replyboxdiv label {
+    color: #FFF;
+}
+
+.spoiler {
+    background: #D877BE;
+    color: #D877BE;
+}
+
+.spoiler:hover {
+    color: #fff;
+}
+
+#bodywrap1 {
+    background-position: right bottom;
+    background-color: #9BE2FF;
+    background-attachment: fixed;
+    background-image: url('images/aloelotus/bg.png');
+    background-repeat: no-repeat;
+}
+
+.logo {
+    color: #FDB3D6;
+    font-family: Georgia;
+}
+
+a,a:visited,a:active {
+    color: #0391C4;
+}
+
+a:hover,.reflink a:hover {
+    color: #FFFFFF;
+}
+
+.darkbar {
+    background-color: #FFAFDA;
+    background-position: right top;
+    background-repeat: repeat-y;
+}
+
+#themedropdown {
+    background-color: #B7EFFF;
+}
+
+.darkbar a {
+    color: #222;
+    border-top-color: #45a;
+}
+
+#verytopbar a {
+    transition: background-color .6s;
+    -moz-transition: background-color .6s;
+    -webkit-transition: background-color .6s;
+    -o-transition: background-color .6s;
+    background-color: transparent;
+    border-top-color: #FFDDF3;
+    font-size: 0.8em;
+}
+
+#verytopbar a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+ /*ponychan.net*/  
+.darkbar a:hover {
+    color: #e8f0ff;
+}
+
+.darkbar a:hover,.darkbar .navbarcurboard {
+    border-top-color: #8ae;
+}
+
+#siteleftsidebar a:hover,#topmenu .tab {
+    background: #F38ABE;
+}
+
+.sitesidebar h2,.newsentry h2,#topmenu .current {
+    background: #FFAFDA;
+}
+ /*ponychan.net*/  
+.sitesidebar h2,#topmenu .tab,#sitemiddle h2 {
+    border: 1px solid #3AA0D7;
+}
+
+.sitesidebar h2,#sitemiddle h2 {
+    -o-box-shodow: 2px 2px 2px #3AA0D7;
+    -moz-box-shadow: 2px 2px 2px #3AA0D7;
+    -webkit-box-shadow: 2px 2px 2px #3AA0D7;
+    box-shadow: 2px 2px 2px #3AA0D7;
+}
+
+.postblock {
+    background: #3CA1D8;
+    color: #FBFBFB;
+}
+ /*ponychan.net*/  
+.postarea input[type=text],.postarea input[type=password],.postarea textarea {
+    background-color: #FDD4EA;
+    border-color: #FFE2F1;
+    color: #7C4C65;
+    border-width: 3px;
+    border-radius: 3px;
+    transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -webkit-transition: background-color .4s;
+    -o-transition: background-color .4s;
+}
+
+.postarea input[type=text]:focus,.postarea input[type=password]:focus,.postarea textarea:focus {
+    border-color: #DCEBF2;
+    background-color: #B0E4FC;
+    color: #000;
+    margin: 0;
+}
+
+.postarea textarea {
+    background-image: url("images/aloelotus/textarea.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.helphover div,.reply,.highlight {
+    background: #FFD3E7;
+    border-color: #FFEDF6;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.reflinkpreview,.highlight {
+    background: #B7EFFF;
+    border-left-width: 3px;
+    border-left-color: #32A6D3;
+}
+ /*ponychan.net*/ 
+.filetitle {
+    color: #2D82B7;
+}
+
+.filesize {
+    color: #B52DA0;
+}
+
+.postername {
+    color: #007CC9;
+    border-bottom-color: #FBFBFB;
+}
+
+.postername a {
+    color: #FFFFFF;
+    border-bottom-color: #FBFBFB;
+}
+
+.postertrip {
+    color: #55828C;
+}
+
+.unkfunc {
+    color: #CE739F;
+}
+
+.royalluna, .rcv {
+    font-size: 1.1em;
+    text-shadow: 2px 2px 0px rgba(124, 215, 253, 0.6), -2px -2px 0px rgba(255, 175, 218, 0.4);
+}
+
+.omittedposts {
+    color: #BB88AA;
+    display: block;
+    margin-top: 0.5em;
+}
+
+.admin, .mod {
+    text-decoration: blink;
+}
+
+.blotter {
+    color: #F38ABE;
+    font-weight: 700;
+}

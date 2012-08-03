@@ -1,0 +1,504 @@
+/* This CSS file MUST NOT be used on any website, but Ponychan. May be used as a template */
+@font-face {
+    font-family:trixie;src:url('images/trixie/sabrina_.ttf') format('truetype');
+}
+
+@keyframes notification {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: rgba(255,0,0,0);
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@-o-keyframes notification {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: rgba(255,0,0,0);
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@-moz-keyframes notification {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: rgba(255,0,0,0);
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@-webkit-keyframes notification {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: rgba(255,0,0,0);
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+html {
+    background: url("images/trixie/bg.png") no-repeat right bottom fixed #0197D7;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::selection {
+    background-color: #9f7de3
+}
+
+::-moz-selection {
+    background-color: #9f7de3
+}
+
+.postername,.postername a,.postertrip,span.filesize {
+    color: #014;
+}
+
+a,a:visited,a:active {
+    color: #5728B7;
+}
+
+.omittedposts {
+    color: #ddf1f9;
+}
+
+span.watchedthreadnewreplies {
+    animation: notification 3.5s;
+    animation-iteration-count: infinite;
+    -o-animation: notification 3.5s;
+    -moz-animation: notification 3.5s;
+    -webkit-animation: notification 3.5s;
+    -o-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite
+}
+
+a:hover,.reflink a:hover,.visited a:hover,.link a:hover {
+    color: #7748D7;
+    text-shadow: 0 0 .1em #ddf1f9
+}
+
+.logo {
+    color: #7E52D9;
+    font-family: 'trixie',arial,serif;
+}
+
+#verytopbar,#themedropdown {
+	background-color: #79BCE9;
+	background-image: linear-gradient(top, #0197D7 0%, #79BCE9 100%);
+	background-image: -o-linear-gradient(top, #0197D7 0%, #79BCE9 100%);
+	background-image: -moz-linear-gradient(top, #0197D7 0%, #79BCE9 100%);
+	background-image: -webkit-linear-gradient(top, #0197D7 0%, #79BCE9 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #0197D7),
+		color-stop(1, #79BCE9)
+	);
+}
+
+.darkbar {
+    opacity: .95;
+    border-radius: 0 0 4px 4px;
+    background-color: transparent;
+}
+
+.darkbar a {
+    -moz-transition-duration: .3s;
+    -moz-transition-property: #0197D7,color;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-property: #0197D7,color;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-duration: .3s;
+    -o-transition-property: #0197D7,color;
+    -o-transition-timing-function: ease-out;
+    border-radius: 0 0 4px 4px;
+    border-top-color: #7E52D9;
+    color: #DDF1F9;
+}
+
+#verytopbar a:hover {
+    -moz-transition-duration: .3s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-duration: .3s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-in-out;
+    background: none repeat scroll 0 0 #B9E1F9;
+}
+
+.darkbar a:hover {
+    -moz-transition-duration: .3s;
+    -moz-transition-property: #0197D7,color;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-duration: .3s;
+    -o-transition-property: #0197D7,color;
+    -o-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-property: #0197D7,color;
+    -webkit-transition-timing-function: ease-in-out;
+    color: #F7FFFF;
+}
+
+#themedropdown,#watchedthreads {
+    box-shadow: 1px 5px 5px #79bde9 inset;
+}
+
+#verytopbar {
+    box-shadow: 1px 5px 5px #79BDE9;
+}
+
+.omittedposts {
+    color: #DDF1F9;
+}
+
+#verytopbar a:hover,#verytopbar .navbarcurboard {
+    background: none repeat scroll 0 0 #0197D7;
+}
+
+.darkbarbar a:hover,.darkbar .navbarcurboard {
+    border-top-color: #9f79df;
+}
+
+#themedropdown {
+    border-radius: 0 0 5px 5px;
+    opacity: .9;
+}
+
+#verytopbar {
+    font-size: .85em;
+}
+
+#verytopbar h1 {
+    color: #3A54B3;
+    font-family: 'trixie',arial,serif;
+    font-size: 4.5em;
+    text-shadow: 1px 1px 1px #3A54B3,0pt 0 16px #B0BCE6;
+}
+
+#verytopbar h3 {
+    font-family: 'trixie',arial,serif;
+}
+
+.postblock {
+    background: none repeat scroll 0 0 #74b5e9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #1a4b6a;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.postarea input[type="text"],.postarea input[type="password"] {
+    border-color: #7478e9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #1a4b6a;
+    padding-right: 10px;
+}
+
+.postarea input[type="text"]:focus,.postarea input[type="password"]:focus,.postarea textarea:focus {
+    border-color: #361d41;
+}
+
+.postarea textarea {
+    background-image: url("images/trixie/textarea.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-color: #48F;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #7E52D9;
+    padding-right: 86px;
+    height: 150px;
+}
+
+hr {
+    border-color: #5f1a6a;
+}
+
+.helphover div,.highlight {
+    background: none repeat scroll 0 0 #79b7df;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #1a4b6a;
+    opacity: .95;
+}
+
+.highlight {
+    background: none repeat scroll 0 0 #2a79ab;
+    border-style: none;
+    opacity: 1;
+    padding-right: 10px;
+}
+
+.reflinkpreview {
+    background: none repeat scroll 0 0 #3e97d0;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #1a4b6a;
+}
+
+.reply {
+    background: none repeat scroll 0 0 rgba(121,183,223,0.8);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(57,0,0,0.8);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.reflinkpreview {
+    opacity: .95;
+}
+
+.filetitle {
+    color: #324da2;
+}
+
+.unkfunc {
+    color: #B9E1F9;
+}
+
+#watchedthreads {
+	background-color: #79BCE9;
+	background-image: linear-gradient(top, #0197D7 0%, #79BCE9 100%);
+	background-image: -o-linear-gradient(top, #0197D7 0%, #79BCE9 100%);
+	background-image: -moz-linear-gradient(top, #0197D7 0%, #79BCE9 100%);
+	background-image: -webkit-linear-gradient(top, #0197D7 0%, #79BCE9 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #0197D7),
+		color-stop(1, #79BCE9)
+	);
+    border-radius: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    opacity: .8;
+    padding-bottom: 0;
+}
+
+#watchedthreadlist {
+    top: 2em;
+    width: 95%;
+}
+
+.sitesidebar a:hover,#topmenu .tab {
+    background: none repeat scroll 0 0 #9878dc;
+}
+
+.sitesidebar h2,.newsentry h2,#topmenu .current {
+    background: none repeat scroll 0 0 #7e52d9;
+}
+
+.sitesidebar h2 {
+    border-radius: 5px;
+    font-size: 1.2em
+}
+
+.sitesidebar li .boardlink {
+    border-radius: 5px;
+}
+
+.sitesidebar .menuexpander {
+    -moz-transition-duration: .2s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-duration: .2s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-in-out;
+    border-radius: 5px;
+}
+
+.sitesidebar .menuexpander:hover {
+    -moz-transition-duration: .2s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-duration: .2s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-in-out;
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 5px;
+}
+
+.sitesidebar a {
+    -moz-transition-duration: .2s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-duration: .2s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-out;
+}
+
+.sitesidebar a:hover {
+    -moz-transition-duration: .2s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-duration: .2s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-out;
+    color: #74b2e9;
+}
+
+#sitemiddle h2 {
+    color: #74b2e9;
+}
+
+#sitemiddle .newstimestamp {
+    color: #3f98d1;
+    font-weight: bold;
+}
+
+#sitemiddle #topmenu .tab a {
+    -moz-transition-duration: .2s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-duration: .2s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-out;
+    color: #230800;
+}
+
+#sitemiddle #topmenu .tab a:hover {
+    -moz-transition-duration: .2s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-duration: .2s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-out;
+    color: #74b2e9;
+}
+
+#sitemiddle #topmenu .current a {
+    color: #74b2e9;
+}
+
+#sitemiddle .newsentry {
+    border-color: transparent;
+    border-radius: 5px;
+    border-right: 2px solid transparent;
+    border-style: none solid solid;
+    border-width: 2px;
+}
+
+#sitemiddle .newscontent {
+    padding-bottom: 5px;
+    padding-right: 25px;
+}
+
+#sitemiddle .permalink a {
+    -moz-transition-duration: .2s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-duration: .2s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-out;
+    color: #230800;
+}
+
+#sitemiddle .permalink a:hover {
+    -moz-transition-duration: .2s;
+    -moz-transition-property: background-color,color;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-duration: .2s;
+    -o-transition-property: background-color,color;
+    -o-transition-timing-function: ease-out;
+    color: #74b2e9;
+}
+
+.sitesidebar .recentpostitem {
+    background: none repeat scroll 0 0 #74b2e9;
+    border-radius: 5px;
+}
+
+.sitesidebar .recentpostheaderline {
+    background: none repeat scroll 0 0 #3399cc;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+.sitesidebar .recentpostitem img {
+    margin-top: .5em;
+}
+
+.sitesidebar .recentpostmessage {
+    padding-bottom: 5px;
+}
+
+.sitesidebar hr {
+    border-width: 0;
+}
+
+.sitesidebar h2 {
+    background: none repeat scroll 0 0 #3399cc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sitesidebar hr {
+    margin-bottom: .5em;
+}
+
+.sitesidebar .menuexpander:hover {
+    color: black;
+}
+
+.spoiler {
+    background: none repeat scroll 0 0 #7E52D9;
+    color: #7E52D9;
+}
+
+.spoiler:hover,.spoiler-hover {
+    color: #E1F3F9;
+}
