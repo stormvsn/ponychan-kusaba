@@ -1,1 +1,162 @@
-@font-face{font-family:chrysalis;src:url(images/chrysalis/black.ttf)}html{background:#222}body{background:0;background-image:url(images/chrysalis/bg.png);background-repeat:no-repeat;background-position:100% 50%;background-size:25%;background-attachment:fixed;color:#68A}hr{border-bottom:1px solid #111}a{color:#DFF;-moz-transition:color .5s, text-shadow .5s;-o-transition:color .5s, text-shadow .5s;-webkit-transition:color .5s, text-shadow .5s}a:hover{color:#4F4;text-shadow:0 0 2px #0F0}h1{text-shadow:0 0 5px #68A;background:0;font-family:chrysalis}.darkbar,#themedropdown{background:#445469;color:#ADF}#verytopbar a{text-shadow:0 0 0;color:#68a;border-top-color:#68A;-moz-transition:color 1s border-top-color 1s background 1s;-o-transition:color 1s border-top-color 1s background 1s;-webkit-transition:color 1s border-top-color 1s background 1s}#verytopbar a:hover{text-shadow:0 0 0;background:#7A9;color:#4F4;border-top-color:#4F4}.filesize,.posttime{color:#456}.filetitle{color:#7F7;text-shadow:0 0 5px #0F0;font-family:chrysalis}.postername{color:#5A5}.postertrip{color:#9C9;font-style:italic}.reflinkpreview{background-color:#343;box-shadow:3px 3px 8px #4A4}#verytopbar,#themedropdown,#watchedthreads{box-shadow:3px 3px 8px #234}.unkfunc{color:#ACF}textarea{background-color:#000;background-image:url(images/nightmare/textarea.png);background-size:contain;background-position:right;background-repeat:no-repeat;color:#AFA;padding-right:60px;border-color:#000}input[type="text"]{color:#AFA;background-color:#444;border-color:#000}input:focus{border-color:#0F0}.postblock{color:#68A;background-color:#445469;border:0;border-left:solid 3px #68A;border-right:solid 3px #68A}.logo{color:#68A;text-shadow:0 0 5px #68a;font-family:chrysalis}.newssubtitle,h2{background-color:#445469;box-shadow:2px 2px 2px #68A;border-color:#68A}.tab{background-color:#678;border-color:#68A}.current{background-color:#445469;border-color:#68A}#replybox{color:#000;background:#fff;background-image:none}#msg{padding:0}#qr>input,#qr>textarea{color:#000;background-color:#FFF}.reply,#imageDataContainer{background-color:#191919}
+@font-face {
+    font-family:chrysalis;src:url(images/chrysalis/black.ttf)
+}
+
+html {
+    background: #222
+}
+
+body {
+    background: 0;
+    background-image: url(images/chrysalis/bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 25%;
+    background-attachment: fixed;
+    color: #68A
+}
+
+hr {
+    border-bottom: 1px solid #111
+}
+
+a {
+    color: #DFF;
+    -moz-transition: color .5s, text-shadow .5s;
+    -o-transition: color .5s, text-shadow .5s;
+    -webkit-transition: color .5s, text-shadow .5s
+}
+
+a:hover {
+    color: #4F4;
+    text-shadow: 0 0 2px #0F0
+}
+
+h1 {
+    text-shadow: 0 0 5px #68A;
+    background: 0;
+    font-family: chrysalis
+}
+
+.darkbar,#themedropdown {
+    background: #445469;
+    color: #ADF
+}
+
+#verytopbar a {
+    text-shadow: 0 0 0;
+    color: #68a;
+    border-top-color: #68A;
+    -moz-transition: color 1s border-top-color 1s background 1s;
+    -o-transition: color 1s border-top-color 1s background 1s;
+    -webkit-transition: color 1s border-top-color 1s background 1s
+}
+
+#verytopbar a:hover {
+    text-shadow: 0 0 0;
+    background: #7A9;
+    color: #4F4;
+    border-top-color: #4F4
+}
+
+.filesize,.posttime {
+    color: #456
+}
+
+.filetitle {
+    color: #7F7;
+    text-shadow: 0 0 5px #0F0;
+    font-family: chrysalis
+}
+
+.postername {
+    color: #5A5
+}
+
+.postertrip {
+    color: #9C9;
+    font-style: italic
+}
+
+.reflinkpreview {
+    background-color: #343;
+    box-shadow: 3px 3px 8px #4A4
+}
+
+#verytopbar,#themedropdown,#watchedthreads {
+    box-shadow: 3px 3px 8px #234
+}
+
+.unkfunc {
+    color: #ACF
+}
+
+textarea {
+    background-color: #000;
+    background-image: url(images/nightmare/textarea.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #AFA;
+    padding-right: 60px;
+    border-color: #000
+}
+
+input[type="text"] {
+    color: #AFA;
+    background-color: #444;
+    border-color: #000
+}
+
+input:focus {
+    border-color: #0F0
+}
+
+.postblock {
+    color: #68A;
+    background-color: #445469;
+    border: 0;
+    border-left: solid 3px #68A;
+    border-right: solid 3px #68A
+}
+
+.logo {
+    color: #68A;
+    text-shadow: 0 0 5px #68a;
+    font-family: chrysalis
+}
+
+.newssubtitle,h2 {
+    background-color: #445469;
+    box-shadow: 2px 2px 2px #68A;
+    border-color: #68A
+}
+
+.tab {
+    background-color: #678;
+    border-color: #68A
+}
+
+.current {
+    background-color: #445469;
+    border-color: #68A
+}
+
+#replybox {
+    color: #000;
+    background: #fff;
+    background-image: none
+}
+
+#msg {
+    padding: 0
+}
+
+#qr>input,#qr>textarea {
+    color: #000;
+    background-color: #FFF
+}
+
+.reply,#imageDataContainer {
+    background-color: #191919
+}

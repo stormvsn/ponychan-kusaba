@@ -1,1 +1,213 @@
-@font-face{font-family:celestiafont;src:url(images/nightmare/CelestiaMediumRedux1.5.ttf)}html{background:url(images/nightmare/bg.png) no-repeat right bottom fixed #002;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}blockquote{color:#DDD}body{color:#DDD;background-color:transparent;background-attachment:fixed}hr{border-bottom-color:#225}h1,h2{background-color:#013;color:#FFF;text-align:center;font-family:celestiafont}.spoiler{background:#225;color:#225}.spoiler:hover{color:#fff}.thumb{background-color:rgba(17,17,51,0.85);border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;transition:background-color .4s;-moz-transition:background-color .4s;-webkit-transition:background-color .4s;-o-transition:background-color .4s;padding:5px}.thumb:hover{background-color:rgba(35,35,100,.85)}.logo{color:#FFF;text-shadow:0 0 10px #FFF;font-family:celestiafont}a,a:visited,a:active{color:#35D}a:hover,.reflink a:hover{color:#68F;text-shadow:0 0 2px #AAF}.darkbar,#themedropdown{background:#013}.darkbar a{color:#ccD;border-top-color:#45a}#verytopbar a{border-top-color:#448;transition:background-color .6s;-moz-transition:background-color .6s;-webkit-transition:background-color .6s;-o-transition:background-color .6s;background-color:#013;font-size:.8em}#verytopbar a:hover{text-shadow:0 0 2px #FFF;background-color:#448}.darkbar a:hover{color:#e8f0ff}.darkbar a:hover,.darkbar .navbarcurboard{border-top-color:#8ae}#siteleftsidebar a:hover,#topmenu .tab{background:#334}.sitesidebar h2,.newsentry h2,#topmenu .current{background:#223}.sitesidebar h2,#topmenu .tab,#sitemiddle h2{border:1px solid #449}.sitesidebar h2,#sitemiddle h2{-o-box-shodow:2px 2px 2px #00a;-moz-box-shadow:2px 2px 2px #00a;-webkit-box-shadow:2px 2px 2px #00a;box-shadow:2px 2px 2px #00a}.postblock{background:rgba(23,23,75,0.5);color:#AAF}.postarea input[type=text],.postarea input[type=password],.postarea textarea{background-color:rgba(17,17,51,0.85);color:#DDD;transition:background-color .4s;-moz-transition:background-color .4s;-webkit-transition:background-color .4s;-o-transition:background-color .4s;border-color:#337}.postarea input[type=text]:focus,.postarea input[type=password]:focus,.postarea textarea:focus{background-color:rgba(150,150,255,0.85);color:#000;border-color:#55F}.reply,.highlight{background:rgba(0,0,20,0.5);border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-width:0;padding:5px}.reflinkpreview,.highlight,.helphover div{background:rgba(0,0,20,0.9);border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-left-width:3px;border-left-color:#008;padding:5px}.filetitle{color:#33C}.filesize{color:#AAA}.postername{color:#46F;border-bottom-color:#6080e0}.postername a{color:#9AF}.postertrip{color:#44A}.unkfunc{color:#4070c0}.royalluna,.rcv{font-size:1.1em;text-shadow:2px 2px 0 rgba(100,100,170,0.6), -2px -2px 0 rgba(50,50,170,0.4)}.admin,.mod{text-decoration:blink}.blotter{color:#AAF;font-weight:700}.roll{font-weight:100;border:2px outset #88F;font-style:italic;line-height:1.5em;outline:0}
+@font-face {
+    font-family:celestiafont;src:url(images/nightmare/CelestiaMediumRedux1.5.ttf)
+}
+
+html {
+    background: url(images/nightmare/bg.png) no-repeat right bottom fixed #002;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+blockquote {
+    color: #DDD
+}
+
+body {
+    color: #DDD;
+    background-color: transparent;
+    background-attachment: fixed
+}
+
+hr {
+    border-bottom-color: #225
+}
+
+h1,h2 {
+    background-color: #013;
+    color: #FFF;
+    text-align: center;
+    font-family: celestiafont
+}
+
+.spoiler {
+    background: #225;
+    color: #225
+}
+
+.spoiler:hover {
+    color: #fff
+}
+
+.thumb {
+    background-color: rgba(17,17,51,0.85);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -webkit-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    padding: 5px
+}
+
+.thumb:hover {
+    background-color: rgba(35,35,100,.85)
+}
+
+.logo {
+    color: #FFF;
+    text-shadow: 0 0 10px #FFF;
+    font-family: celestiafont
+}
+
+a,a:visited,a:active {
+    color: #35D
+}
+
+a:hover,.reflink a:hover {
+    color: #68F;
+    text-shadow: 0 0 2px #AAF
+}
+
+.darkbar,#themedropdown {
+    background: #013
+}
+
+.darkbar a {
+    color: #ccD;
+    border-top-color: #45a
+}
+
+#verytopbar a {
+    border-top-color: #448;
+    transition: background-color .6s;
+    -moz-transition: background-color .6s;
+    -webkit-transition: background-color .6s;
+    -o-transition: background-color .6s;
+    background-color: #013;
+    font-size: .8em
+}
+
+#verytopbar a:hover {
+    text-shadow: 0 0 2px #FFF;
+    background-color: #448
+}
+
+.darkbar a:hover {
+    color: #e8f0ff
+}
+
+.darkbar a:hover,.darkbar .navbarcurboard {
+    border-top-color: #8ae
+}
+
+#siteleftsidebar a:hover,#topmenu .tab {
+    background: #334
+}
+
+.sitesidebar h2,.newsentry h2,#topmenu .current {
+    background: #223
+}
+
+.sitesidebar h2,#topmenu .tab,#sitemiddle h2 {
+    border: 1px solid #449
+}
+
+.sitesidebar h2,#sitemiddle h2 {
+    -o-box-shodow: 2px 2px 2px #00a;
+    -moz-box-shadow: 2px 2px 2px #00a;
+    -webkit-box-shadow: 2px 2px 2px #00a;
+    box-shadow: 2px 2px 2px #00a
+}
+
+.postblock {
+    background: rgba(23,23,75,0.5);
+    color: #AAF
+}
+
+.postarea input[type=text],.postarea input[type=password],.postarea textarea {
+    background-color: rgba(17,17,51,0.85);
+    color: #DDD;
+    transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -webkit-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    border-color: #337
+}
+
+.postarea input[type=text]:focus,.postarea input[type=password]:focus,.postarea textarea:focus {
+    background-color: rgba(150,150,255,0.85);
+    color: #000;
+    border-color: #55F
+}
+
+.reply,.highlight {
+    background: rgba(0,0,20,0.5);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-width: 0;
+    padding: 5px
+}
+
+.reflinkpreview,.highlight,.helphover div {
+    background: rgba(0,0,20,0.9);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left-width: 3px;
+    border-left-color: #008;
+    padding: 5px
+}
+
+.filetitle {
+    color: #33C
+}
+
+.filesize {
+    color: #AAA
+}
+
+.postername {
+    color: #46F;
+    border-bottom-color: #6080e0
+}
+
+.postername a {
+    color: #9AF
+}
+
+.postertrip {
+    color: #44A
+}
+
+.unkfunc {
+    color: #4070c0
+}
+
+.royalluna,.rcv {
+    font-size: 1.1em;
+    text-shadow: 2px 2px 0 rgba(100,100,170,0.6), -2px -2px 0 rgba(50,50,170,0.4)
+}
+
+.admin,.mod {
+    text-decoration: blink
+}
+
+.blotter {
+    color: #AAF;
+    font-weight: 700
+}
+
+.roll {
+    font-weight: 100;
+    border: 2px outset #88F;
+    font-style: italic;
+    line-height: 1.5em;
+    outline: 0
+}
